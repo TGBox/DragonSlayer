@@ -1,2 +1,2 @@
-# DragonSlayerDANI
-Dragon Slayer Text Adventure
+# DragonSlayer
+Dragon Slayer Text Adventure  ¯\_(ツ)_/¯
