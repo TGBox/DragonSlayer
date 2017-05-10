@@ -7,9 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3c5f79-1553-4fca-a640-c4ddb5d19da5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newVersion/meta/GameHandler.java" afterPath="$PROJECT_DIR$/src/newVersion/meta/GameHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,380 +22,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FieldCreator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/newCreators/FieldCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="28" column="90" lean-forward="false" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
-              <folding>
-                <element signature="docComment;class#FieldCreator#0" expanded="false" />
-                <element signature="docComment;method#createEmptyField#0;class#FieldCreator#0" expanded="false" />
-                <element signature="method#createEmptyField#0;class#FieldCreator#0" expanded="false" />
-                <element signature="docComment;method#createField#0;class#FieldCreator#0" expanded="false" />
-                <element signature="method#createField#0;class#FieldCreator#0" expanded="false" />
-                <element signature="docComment;method#createDungeonField#0;class#FieldCreator#0" expanded="false" />
-                <element signature="method#createDungeonField#0;class#FieldCreator#0" expanded="false" />
-                <element signature="docComment;method#rand#0;class#FieldCreator#0" expanded="false" />
-                <element signature="method#rand#0;class#FieldCreator#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/classes/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="262" column="42" lean-forward="false" selection-start-line="262" selection-start-column="42" selection-end-line="262" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#Map#0" expanded="false" />
-                <element signature="docComment;method#Map#0;class#Map#0" expanded="false" />
-                <element signature="method#Map#0;class#Map#0" expanded="false" />
-                <element signature="docComment;method#Map#1;class#Map#0" expanded="false" />
-                <element signature="method#Map#1;class#Map#0" expanded="false" />
-                <element signature="docComment;method#Map#2;class#Map#0" expanded="false" />
-                <element signature="method#Map#2;class#Map#0" expanded="false" />
-                <element signature="docComment;method#addEnemiesAndItemsForDungeon#0;class#Map#0" expanded="false" />
-                <element signature="method#addEnemiesAndItemsForDungeon#0;class#Map#0" expanded="false" />
-                <element signature="docComment;method#addEnemiesAndItems#0;class#Map#0" expanded="false" />
-                <element signature="method#addEnemiesAndItems#0;class#Map#0" expanded="false" />
-                <element signature="docComment;method#initializeTheFieldsEmpty#0;class#Map#0" expanded="false" />
-                <element signature="method#initializeTheFieldsEmpty#0;class#Map#0" expanded="false" />
-                <element signature="docComment;method#respawnBoss#0;class#Map#0" expanded="false" />
-                <element signature="method#respawnBoss#0;class#Map#0" expanded="false" />
-                <element signature="docComment;method#randInt#0;class#Map#0" expanded="false" />
-                <element signature="method#randInt#0;class#Map#0" expanded="false" />
-                <element signature="e#9262#9263#0" expanded="false" />
-                <element signature="e#9291#9292#0" expanded="false" />
-                <element signature="e#9324#9325#0" expanded="false" />
-                <element signature="e#9352#9353#0" expanded="false" />
-                <element signature="e#9389#9390#0" expanded="false" />
-                <element signature="e#9423#9424#0" expanded="false" />
-                <element signature="e#9451#9452#0" expanded="false" />
-                <element signature="e#9479#9480#0" expanded="false" />
-                <element signature="e#9509#9510#0" expanded="false" />
-                <element signature="e#9539#9540#0" expanded="false" />
-                <element signature="e#9580#9581#0" expanded="false" />
-                <element signature="e#9623#9624#0" expanded="false" />
-                <element signature="e#9669#9670#0" expanded="false" />
-                <element signature="e#9705#9706#0" expanded="false" />
-                <element signature="e#9748#9749#0" expanded="false" />
-                <element signature="e#9782#9783#0" expanded="false" />
-                <element signature="e#9836#9837#0" expanded="false" />
-                <element signature="e#9882#9883#0" expanded="false" />
-                <element signature="e#9920#9921#0" expanded="false" />
-                <element signature="e#9954#9955#0" expanded="false" />
-                <element signature="e#9996#9997#0" expanded="false" />
-                <element signature="e#10034#10035#0" expanded="false" />
-                <element signature="e#10087#10088#0" expanded="false" />
-                <element signature="e#10136#10137#0" expanded="false" />
-                <element signature="method#getBossPos#0;class#Map#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/classes/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="78" column="60" lean-forward="false" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
-              <folding>
-                <element signature="docComment;class#Item#0" expanded="false" />
-                <element signature="docComment;method#Item#0;class#Item#0" expanded="false" />
-                <element signature="method#Item#0;class#Item#0" expanded="false" />
-                <element signature="docComment;method#Item#1;class#Item#0" expanded="false" />
-                <element signature="method#Item#1;class#Item#0" expanded="false" />
-                <element signature="docComment;method#Item#2;class#Item#0" expanded="false" />
-                <element signature="method#Item#2;class#Item#0" expanded="false" />
-                <element signature="docComment;method#Item#3;class#Item#0" expanded="false" />
-                <element signature="method#Item#3;class#Item#0" expanded="false" />
-                <element signature="docComment;method#initiateVocal#0;class#Item#0" expanded="false" />
-                <element signature="method#initiateVocal#0;class#Item#0" expanded="false" />
-                <element signature="e#2753#2754#0" expanded="false" />
-                <element signature="e#2780#2781#0" expanded="false" />
-                <element signature="e#2819#2820#0" expanded="false" />
-                <element signature="e#2851#2852#0" expanded="false" />
-                <element signature="e#2893#2894#0" expanded="false" />
-                <element signature="e#2931#2932#0" expanded="false" />
-                <element signature="e#2961#2962#0" expanded="false" />
-                <element signature="e#2991#2992#0" expanded="false" />
-                <element signature="e#3031#3032#0" expanded="false" />
-                <element signature="e#3067#3068#0" expanded="false" />
-                <element signature="e#3114#3115#0" expanded="false" />
-                <element signature="e#3154#3155#0" expanded="false" />
-                <element signature="e#3183#3184#0" expanded="false" />
-                <element signature="e#3212#3213#0" expanded="false" />
-                <element signature="e#3246#3247#0" expanded="false" />
-                <element signature="e#3277#3278#0" expanded="false" />
-                <element signature="e#3306#3307#0" expanded="false" />
-                <element signature="e#3335#3336#0" expanded="false" />
-                <element signature="e#3372#3373#0" expanded="false" />
-                <element signature="e#3406#3407#0" expanded="false" />
-                <element signature="e#3459#3460#0" expanded="false" />
-                <element signature="e#3505#3506#0" expanded="false" />
-                <element signature="e#3545#3546#0" expanded="false" />
-                <element signature="e#3581#3582#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/classes/Character.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3348">
-              <caret line="390" column="4" lean-forward="false" selection-start-line="390" selection-start-column="4" selection-end-line="402" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#Character#0" expanded="false" />
-                <element signature="docComment;method#Character#0;class#Character#0" expanded="false" />
-                <element signature="method#Character#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#Character#1;class#Character#0" expanded="false" />
-                <element signature="method#Character#1;class#Character#0" expanded="false" />
-                <element signature="docComment;method#heal#0;class#Character#0" expanded="false" />
-                <element signature="method#heal#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#levelUp#0;class#Character#0" expanded="false" />
-                <element signature="method#levelUp#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#getHealthBonus#0;class#Character#0" expanded="false" />
-                <element signature="method#getHealthBonus#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#calculateNewLevel#0;class#Character#0" expanded="false" />
-                <element signature="method#calculateNewLevel#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#calculateGainedXP#0;class#Character#0" expanded="false" />
-                <element signature="method#calculateGainedXP#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#deleteItem#0;class#Character#0" expanded="false" />
-                <element signature="method#deleteItem#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#addItem#0;class#Character#0" expanded="false" />
-                <element signature="method#addItem#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#enlargeBag#0;class#Character#0" expanded="false" />
-                <element signature="method#enlargeBag#0;class#Character#0" expanded="false" />
-                <element signature="docComment;method#initiateVocal#0;class#Character#0" expanded="false" />
-                <element signature="method#initiateVocal#0;class#Character#0" expanded="false" />
-                <element signature="e#14519#14520#0" expanded="false" />
-                <element signature="e#14546#14547#0" expanded="false" />
-                <element signature="e#14578#14579#0" expanded="false" />
-                <element signature="e#14607#14608#0" expanded="false" />
-                <element signature="e#14637#14638#0" expanded="false" />
-                <element signature="e#14666#14667#0" expanded="false" />
-                <element signature="e#14695#14696#0" expanded="false" />
-                <element signature="e#14724#14725#0" expanded="false" />
-                <element signature="e#14753#14754#0" expanded="false" />
-                <element signature="e#14779#14780#0" expanded="false" />
-                <element signature="e#14812#14813#0" expanded="false" />
-                <element signature="e#14845#14846#0" expanded="false" />
-                <element signature="e#14876#14877#0" expanded="false" />
-                <element signature="e#14902#14903#0" expanded="false" />
-                <element signature="e#14930#14931#0" expanded="false" />
-                <element signature="e#14958#14959#0" expanded="false" />
-                <element signature="e#14990#14991#0" expanded="false" />
-                <element signature="e#15022#15023#0" expanded="false" />
-                <element signature="e#15068#15069#0" expanded="false" />
-                <element signature="e#15110#15111#0" expanded="false" />
-                <element signature="e#15143#15144#0" expanded="false" />
-                <element signature="e#15176#15177#0" expanded="false" />
-                <element signature="e#15213#15214#0" expanded="false" />
-                <element signature="e#15250#15251#0" expanded="false" />
-                <element signature="e#15289#15290#0" expanded="false" />
-                <element signature="e#15321#15322#0" expanded="false" />
-                <element signature="e#15364#15365#0" expanded="false" />
-                <element signature="e#15400#15401#0" expanded="false" />
-                <element signature="e#15439#15440#0" expanded="false" />
-                <element signature="e#15469#15470#0" expanded="false" />
-                <element signature="e#15510#15511#0" expanded="false" />
-                <element signature="e#15546#15547#0" expanded="false" />
-                <element signature="e#15586#15587#0" expanded="false" />
-                <element signature="e#15622#15623#0" expanded="false" />
-                <element signature="e#15659#15660#0" expanded="false" />
-                <element signature="e#15689#15690#0" expanded="false" />
-                <element signature="e#15737#15738#0" expanded="false" />
-                <element signature="e#15781#15782#0" expanded="false" />
-                <element signature="e#15819#15820#0" expanded="false" />
-                <element signature="e#15853#15854#0" expanded="false" />
-                <element signature="e#15901#15902#0" expanded="false" />
-                <element signature="e#15945#15946#0" expanded="false" />
-                <element signature="e#16001#16002#0" expanded="false" />
-                <element signature="e#16053#16054#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/classes/Enemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#Enemy#0" expanded="false" />
-                <element signature="docComment;method#Enemy#0;class#Enemy#0" expanded="false" />
-                <element signature="method#Enemy#0;class#Enemy#0" expanded="false" />
-                <element signature="docComment;method#Enemy#1;class#Enemy#0" expanded="false" />
-                <element signature="method#Enemy#1;class#Enemy#0" expanded="false" />
-                <element signature="docComment;method#initiateVocal#0;class#Enemy#0" expanded="false" />
-                <element signature="method#initiateVocal#0;class#Enemy#0" expanded="false" />
-                <element signature="e#1826#1827#0" expanded="false" />
-                <element signature="e#1853#1854#0" expanded="false" />
-                <element signature="e#1882#1883#0" expanded="false" />
-                <element signature="e#1911#1912#0" expanded="false" />
-                <element signature="e#1941#1942#0" expanded="false" />
-                <element signature="e#1970#1971#0" expanded="false" />
-                <element signature="e#2000#2001#0" expanded="false" />
-                <element signature="e#2029#2030#0" expanded="false" />
-                <element signature="e#2068#2069#0" expanded="false" />
-                <element signature="e#2100#2101#0" expanded="false" />
-                <element signature="e#2140#2141#0" expanded="false" />
-                <element signature="e#2176#2177#0" expanded="false" />
-                <element signature="e#2217#2218#0" expanded="false" />
-                <element signature="e#2253#2254#0" expanded="false" />
-                <element signature="e#2290#2291#0" expanded="false" />
-                <element signature="e#2327#2328#0" expanded="false" />
-                <element signature="e#2369#2370#0" expanded="false" />
-                <element signature="e#2398#2399#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NPC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/classes/NPC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-              <folding>
-                <element signature="docComment;class#NPC#0" expanded="false" />
-                <element signature="docComment;method#NPC#0;class#NPC#0" expanded="false" />
-                <element signature="method#NPC#0;class#NPC#0" expanded="false" />
-                <element signature="docComment;method#initiateVocal#0;class#NPC#0" expanded="false" />
-                <element signature="method#initiateVocal#0;class#NPC#0" expanded="false" />
-                <element signature="e#2130#2131#0" expanded="false" />
-                <element signature="e#2157#2158#0" expanded="false" />
-                <element signature="e#2186#2187#0" expanded="false" />
-                <element signature="e#2215#2216#0" expanded="false" />
-                <element signature="e#2245#2246#0" expanded="false" />
-                <element signature="e#2274#2275#0" expanded="false" />
-                <element signature="e#2306#2307#0" expanded="false" />
-                <element signature="e#2337#2338#0" expanded="false" />
-                <element signature="e#2377#2378#0" expanded="false" />
-                <element signature="e#2416#2417#0" expanded="false" />
-                <element signature="e#2446#2447#0" expanded="false" />
-                <element signature="e#2476#2477#0" expanded="false" />
-                <element signature="e#2506#2507#0" expanded="false" />
-                <element signature="e#2535#2536#0" expanded="false" />
-                <element signature="e#2574#2575#0" expanded="false" />
-                <element signature="e#2610#2611#0" expanded="false" />
-                <element signature="e#2653#2654#0" expanded="false" />
-                <element signature="e#2693#2694#0" expanded="false" />
-                <element signature="e#2733#2734#0" expanded="false" />
-                <element signature="e#2770#2771#0" expanded="false" />
-                <element signature="e#2810#2811#0" expanded="false" />
-                <element signature="e#2847#2848#0" expanded="false" />
-                <element signature="e#2886#2887#0" expanded="false" />
-                <element signature="e#2918#2919#0" expanded="false" />
-                <element signature="e#2958#2959#0" expanded="false" />
-                <element signature="e#2994#2995#0" expanded="false" />
-                <element signature="e#3035#3036#0" expanded="false" />
-                <element signature="e#3071#3072#0" expanded="false" />
-                <element signature="e#3119#3120#0" expanded="false" />
-                <element signature="e#3159#3160#0" expanded="false" />
-                <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
-                <element signature="e#3321#3322#0" expanded="false" />
-                <element signature="e#3359#3360#0" expanded="false" />
-                <element signature="e#3400#3401#0" expanded="false" />
-                <element signature="e#3436#3437#0" expanded="false" />
-                <element signature="e#3493#3494#0" expanded="false" />
-                <element signature="e#3543#3544#0" expanded="false" />
-                <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
-                <element signature="e#3725#3726#0" expanded="false" />
-                <element signature="e#3777#3778#0" expanded="false" />
-                <element signature="e#3836#3837#0" expanded="false" />
-                <element signature="e#3888#3889#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/classes/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="50" column="51" lean-forward="false" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-              <folding>
-                <element signature="docComment;class#Field#0" expanded="false" />
-                <element signature="docComment;method#Field#0;class#Field#0" expanded="false" />
-                <element signature="method#Field#0;class#Field#0" expanded="false" />
-                <element signature="method#Field#1;class#Field#0" expanded="false" />
-                <element signature="method#Field#2;class#Field#0" expanded="false" />
-                <element signature="method#Field#3;class#Field#0" expanded="false" />
-                <element signature="docComment;method#initiateVocal#0;class#Field#0" expanded="false" />
-                <element signature="method#initiateVocal#0;class#Field#0" expanded="false" />
-                <element signature="docComment;method#hasEnemy#0;class#Field#0" expanded="false" />
-                <element signature="e#2120#2121#0" expanded="false" />
-                <element signature="e#2161#2162#0" expanded="false" />
-                <element signature="docComment;method#hasItem#0;class#Field#0" expanded="false" />
-                <element signature="e#2316#2317#0" expanded="false" />
-                <element signature="e#2356#2357#0" expanded="false" />
-                <element signature="e#2421#2422#0" expanded="false" />
-                <element signature="e#2448#2449#0" expanded="false" />
-                <element signature="e#2478#2479#0" expanded="false" />
-                <element signature="e#2506#2507#0" expanded="false" />
-                <element signature="e#2534#2535#0" expanded="false" />
-                <element signature="e#2561#2562#0" expanded="false" />
-                <element signature="e#2589#2590#0" expanded="false" />
-                <element signature="e#2617#2618#0" expanded="false" />
-                <element signature="e#2651#2652#0" expanded="false" />
-                <element signature="e#2684#2685#0" expanded="false" />
-                <element signature="e#2723#2724#0" expanded="false" />
-                <element signature="e#2755#2756#0" expanded="false" />
-                <element signature="e#2795#2796#0" expanded="false" />
-                <element signature="e#2829#2830#0" expanded="false" />
-                <element signature="e#2866#2867#0" expanded="false" />
-                <element signature="e#2898#2899#0" expanded="false" />
-                <element signature="e#2936#2937#0" expanded="false" />
-                <element signature="e#2970#2971#0" expanded="false" />
-                <element signature="e#3022#3023#0" expanded="false" />
-                <element signature="e#3066#3067#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/meta/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-              <folding>
-                <element signature="method#Game#0;class#Game#0" expanded="false" />
-                <element signature="method#advanceToNextMap#0;class#Game#0" expanded="false" />
-                <element signature="method#createCurrentPrompt#0;class#Game#0" expanded="false" />
-                <element signature="method#createFightPrompt#0;class#Game#0" expanded="false" />
-                <element signature="method#randInt#0;class#Game#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="GameHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/newVersion/meta/GameHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="434">
               <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding>
-                <element signature="method#getUserName#0;class#GameHandler#0" expanded="false" />
-                <element signature="method#getUserGender#0;class#GameHandler#0" expanded="false" />
-                <element signature="method#getUserDifficulty#0;class#GameHandler#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/newVersion/meta/Gender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -485,10 +115,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -522,7 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -635,13 +264,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Transparenter" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1015,23 +644,30 @@
       <option name="project" value="LOCAL" />
       <updated>1494456598861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="game handler class updated for new version">
+      <created>1494458099992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494458099992</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33480662" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42996743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31510416" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31461865" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1074,8 +710,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../TGB_DragonSlayer" />
+    </ignored-roots>
     <MESSAGE value="synced project with repository from main computer" />
-    <option name="LAST_COMMIT_MESSAGE" value="synced project with repository from main computer" />
+    <MESSAGE value="game handler class updated for new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="game handler class updated for new version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1282,11 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="method#createRandomWeapon#0;class#WeaponCreator#0" expanded="false" />
-            <element signature="method#createRestrictedWeapon#0;class#WeaponCreator#0" expanded="false" />
-            <element signature="method#createStartingWeapon#0;class#WeaponCreator#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,12 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#createNewMap#0;class#MapCreator#0" expanded="false" />
-            <element signature="method#createDungeonMap#0;class#MapCreator#0" expanded="false" />
-            <element signature="method#randInt#0;class#MapCreator#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,51 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="262" column="42" lean-forward="false" selection-start-line="262" selection-start-column="42" selection-end-line="262" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Map#0" expanded="false" />
-            <element signature="docComment;method#Map#0;class#Map#0" expanded="false" />
-            <element signature="method#Map#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#Map#1;class#Map#0" expanded="false" />
-            <element signature="method#Map#1;class#Map#0" expanded="false" />
-            <element signature="docComment;method#Map#2;class#Map#0" expanded="false" />
-            <element signature="method#Map#2;class#Map#0" expanded="false" />
-            <element signature="docComment;method#addEnemiesAndItemsForDungeon#0;class#Map#0" expanded="false" />
-            <element signature="method#addEnemiesAndItemsForDungeon#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#addEnemiesAndItems#0;class#Map#0" expanded="false" />
-            <element signature="method#addEnemiesAndItems#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#initializeTheFieldsEmpty#0;class#Map#0" expanded="false" />
-            <element signature="method#initializeTheFieldsEmpty#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#respawnBoss#0;class#Map#0" expanded="false" />
-            <element signature="method#respawnBoss#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#randInt#0;class#Map#0" expanded="false" />
-            <element signature="method#randInt#0;class#Map#0" expanded="false" />
-            <element signature="e#9262#9263#0" expanded="false" />
-            <element signature="e#9291#9292#0" expanded="false" />
-            <element signature="e#9324#9325#0" expanded="false" />
-            <element signature="e#9352#9353#0" expanded="false" />
-            <element signature="e#9389#9390#0" expanded="false" />
-            <element signature="e#9423#9424#0" expanded="false" />
-            <element signature="e#9451#9452#0" expanded="false" />
-            <element signature="e#9479#9480#0" expanded="false" />
-            <element signature="e#9509#9510#0" expanded="false" />
-            <element signature="e#9539#9540#0" expanded="false" />
-            <element signature="e#9580#9581#0" expanded="false" />
-            <element signature="e#9623#9624#0" expanded="false" />
-            <element signature="e#9669#9670#0" expanded="false" />
-            <element signature="e#9705#9706#0" expanded="false" />
-            <element signature="e#9748#9749#0" expanded="false" />
-            <element signature="e#9782#9783#0" expanded="false" />
-            <element signature="e#9836#9837#0" expanded="false" />
-            <element signature="e#9882#9883#0" expanded="false" />
-            <element signature="e#9920#9921#0" expanded="false" />
-            <element signature="e#9954#9955#0" expanded="false" />
-            <element signature="e#9996#9997#0" expanded="false" />
-            <element signature="e#10034#10035#0" expanded="false" />
-            <element signature="e#10087#10088#0" expanded="false" />
-            <element signature="e#10136#10137#0" expanded="false" />
-            <element signature="method#getBossPos#0;class#Map#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1436,33 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Enemy#0" expanded="false" />
-            <element signature="docComment;method#Enemy#0;class#Enemy#0" expanded="false" />
-            <element signature="method#Enemy#0;class#Enemy#0" expanded="false" />
-            <element signature="docComment;method#Enemy#1;class#Enemy#0" expanded="false" />
-            <element signature="method#Enemy#1;class#Enemy#0" expanded="false" />
-            <element signature="docComment;method#initiateVocal#0;class#Enemy#0" expanded="false" />
-            <element signature="method#initiateVocal#0;class#Enemy#0" expanded="false" />
-            <element signature="e#1826#1827#0" expanded="false" />
-            <element signature="e#1853#1854#0" expanded="false" />
-            <element signature="e#1882#1883#0" expanded="false" />
-            <element signature="e#1911#1912#0" expanded="false" />
-            <element signature="e#1941#1942#0" expanded="false" />
-            <element signature="e#1970#1971#0" expanded="false" />
-            <element signature="e#2000#2001#0" expanded="false" />
-            <element signature="e#2029#2030#0" expanded="false" />
-            <element signature="e#2068#2069#0" expanded="false" />
-            <element signature="e#2100#2101#0" expanded="false" />
-            <element signature="e#2140#2141#0" expanded="false" />
-            <element signature="e#2176#2177#0" expanded="false" />
-            <element signature="e#2217#2218#0" expanded="false" />
-            <element signature="e#2253#2254#0" expanded="false" />
-            <element signature="e#2290#2291#0" expanded="false" />
-            <element signature="e#2327#2328#0" expanded="false" />
-            <element signature="e#2369#2370#0" expanded="false" />
-            <element signature="e#2398#2399#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1470,55 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding>
-            <element signature="docComment;class#NPC#0" expanded="false" />
-            <element signature="docComment;method#NPC#0;class#NPC#0" expanded="false" />
-            <element signature="method#NPC#0;class#NPC#0" expanded="false" />
-            <element signature="docComment;method#initiateVocal#0;class#NPC#0" expanded="false" />
-            <element signature="method#initiateVocal#0;class#NPC#0" expanded="false" />
-            <element signature="e#2130#2131#0" expanded="false" />
-            <element signature="e#2157#2158#0" expanded="false" />
-            <element signature="e#2186#2187#0" expanded="false" />
-            <element signature="e#2215#2216#0" expanded="false" />
-            <element signature="e#2245#2246#0" expanded="false" />
-            <element signature="e#2274#2275#0" expanded="false" />
-            <element signature="e#2306#2307#0" expanded="false" />
-            <element signature="e#2337#2338#0" expanded="false" />
-            <element signature="e#2377#2378#0" expanded="false" />
-            <element signature="e#2416#2417#0" expanded="false" />
-            <element signature="e#2446#2447#0" expanded="false" />
-            <element signature="e#2476#2477#0" expanded="false" />
-            <element signature="e#2506#2507#0" expanded="false" />
-            <element signature="e#2535#2536#0" expanded="false" />
-            <element signature="e#2574#2575#0" expanded="false" />
-            <element signature="e#2610#2611#0" expanded="false" />
-            <element signature="e#2653#2654#0" expanded="false" />
-            <element signature="e#2693#2694#0" expanded="false" />
-            <element signature="e#2733#2734#0" expanded="false" />
-            <element signature="e#2770#2771#0" expanded="false" />
-            <element signature="e#2810#2811#0" expanded="false" />
-            <element signature="e#2847#2848#0" expanded="false" />
-            <element signature="e#2886#2887#0" expanded="false" />
-            <element signature="e#2918#2919#0" expanded="false" />
-            <element signature="e#2958#2959#0" expanded="false" />
-            <element signature="e#2994#2995#0" expanded="false" />
-            <element signature="e#3035#3036#0" expanded="false" />
-            <element signature="e#3071#3072#0" expanded="false" />
-            <element signature="e#3119#3120#0" expanded="false" />
-            <element signature="e#3159#3160#0" expanded="false" />
-            <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
-            <element signature="e#3321#3322#0" expanded="false" />
-            <element signature="e#3359#3360#0" expanded="false" />
-            <element signature="e#3400#3401#0" expanded="false" />
-            <element signature="e#3436#3437#0" expanded="false" />
-            <element signature="e#3493#3494#0" expanded="false" />
-            <element signature="e#3543#3544#0" expanded="false" />
-            <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
-            <element signature="e#3725#3726#0" expanded="false" />
-            <element signature="e#3777#3778#0" expanded="false" />
-            <element signature="e#3836#3837#0" expanded="false" />
-            <element signature="e#3888#3889#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1526,42 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="50" column="51" lean-forward="false" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-          <folding>
-            <element signature="docComment;class#Field#0" expanded="false" />
-            <element signature="docComment;method#Field#0;class#Field#0" expanded="false" />
-            <element signature="method#Field#0;class#Field#0" expanded="false" />
-            <element signature="method#Field#1;class#Field#0" expanded="false" />
-            <element signature="method#Field#2;class#Field#0" expanded="false" />
-            <element signature="method#Field#3;class#Field#0" expanded="false" />
-            <element signature="docComment;method#initiateVocal#0;class#Field#0" expanded="false" />
-            <element signature="method#initiateVocal#0;class#Field#0" expanded="false" />
-            <element signature="docComment;method#hasEnemy#0;class#Field#0" expanded="false" />
-            <element signature="e#2120#2121#0" expanded="false" />
-            <element signature="e#2161#2162#0" expanded="false" />
-            <element signature="docComment;method#hasItem#0;class#Field#0" expanded="false" />
-            <element signature="e#2316#2317#0" expanded="false" />
-            <element signature="e#2356#2357#0" expanded="false" />
-            <element signature="e#2421#2422#0" expanded="false" />
-            <element signature="e#2448#2449#0" expanded="false" />
-            <element signature="e#2478#2479#0" expanded="false" />
-            <element signature="e#2506#2507#0" expanded="false" />
-            <element signature="e#2534#2535#0" expanded="false" />
-            <element signature="e#2561#2562#0" expanded="false" />
-            <element signature="e#2589#2590#0" expanded="false" />
-            <element signature="e#2617#2618#0" expanded="false" />
-            <element signature="e#2651#2652#0" expanded="false" />
-            <element signature="e#2684#2685#0" expanded="false" />
-            <element signature="e#2723#2724#0" expanded="false" />
-            <element signature="e#2755#2756#0" expanded="false" />
-            <element signature="e#2795#2796#0" expanded="false" />
-            <element signature="e#2829#2830#0" expanded="false" />
-            <element signature="e#2866#2867#0" expanded="false" />
-            <element signature="e#2898#2899#0" expanded="false" />
-            <element signature="e#2936#2937#0" expanded="false" />
-            <element signature="e#2970#2971#0" expanded="false" />
-            <element signature="e#3022#3023#0" expanded="false" />
-            <element signature="e#3066#3067#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1569,17 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="28" column="90" lean-forward="false" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
-          <folding>
-            <element signature="docComment;class#FieldCreator#0" expanded="false" />
-            <element signature="docComment;method#createEmptyField#0;class#FieldCreator#0" expanded="false" />
-            <element signature="method#createEmptyField#0;class#FieldCreator#0" expanded="false" />
-            <element signature="docComment;method#createField#0;class#FieldCreator#0" expanded="false" />
-            <element signature="method#createField#0;class#FieldCreator#0" expanded="false" />
-            <element signature="docComment;method#createDungeonField#0;class#FieldCreator#0" expanded="false" />
-            <element signature="method#createDungeonField#0;class#FieldCreator#0" expanded="false" />
-            <element signature="docComment;method#rand#0;class#FieldCreator#0" expanded="false" />
-            <element signature="method#rand#0;class#FieldCreator#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1587,76 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3348">
           <caret line="390" column="4" lean-forward="false" selection-start-line="390" selection-start-column="4" selection-end-line="402" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Character#0" expanded="false" />
-            <element signature="docComment;method#Character#0;class#Character#0" expanded="false" />
-            <element signature="method#Character#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#Character#1;class#Character#0" expanded="false" />
-            <element signature="method#Character#1;class#Character#0" expanded="false" />
-            <element signature="docComment;method#heal#0;class#Character#0" expanded="false" />
-            <element signature="method#heal#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#levelUp#0;class#Character#0" expanded="false" />
-            <element signature="method#levelUp#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#getHealthBonus#0;class#Character#0" expanded="false" />
-            <element signature="method#getHealthBonus#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#calculateNewLevel#0;class#Character#0" expanded="false" />
-            <element signature="method#calculateNewLevel#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#calculateGainedXP#0;class#Character#0" expanded="false" />
-            <element signature="method#calculateGainedXP#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#deleteItem#0;class#Character#0" expanded="false" />
-            <element signature="method#deleteItem#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#addItem#0;class#Character#0" expanded="false" />
-            <element signature="method#addItem#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#enlargeBag#0;class#Character#0" expanded="false" />
-            <element signature="method#enlargeBag#0;class#Character#0" expanded="false" />
-            <element signature="docComment;method#initiateVocal#0;class#Character#0" expanded="false" />
-            <element signature="method#initiateVocal#0;class#Character#0" expanded="false" />
-            <element signature="e#14519#14520#0" expanded="false" />
-            <element signature="e#14546#14547#0" expanded="false" />
-            <element signature="e#14578#14579#0" expanded="false" />
-            <element signature="e#14607#14608#0" expanded="false" />
-            <element signature="e#14637#14638#0" expanded="false" />
-            <element signature="e#14666#14667#0" expanded="false" />
-            <element signature="e#14695#14696#0" expanded="false" />
-            <element signature="e#14724#14725#0" expanded="false" />
-            <element signature="e#14753#14754#0" expanded="false" />
-            <element signature="e#14779#14780#0" expanded="false" />
-            <element signature="e#14812#14813#0" expanded="false" />
-            <element signature="e#14845#14846#0" expanded="false" />
-            <element signature="e#14876#14877#0" expanded="false" />
-            <element signature="e#14902#14903#0" expanded="false" />
-            <element signature="e#14930#14931#0" expanded="false" />
-            <element signature="e#14958#14959#0" expanded="false" />
-            <element signature="e#14990#14991#0" expanded="false" />
-            <element signature="e#15022#15023#0" expanded="false" />
-            <element signature="e#15068#15069#0" expanded="false" />
-            <element signature="e#15110#15111#0" expanded="false" />
-            <element signature="e#15143#15144#0" expanded="false" />
-            <element signature="e#15176#15177#0" expanded="false" />
-            <element signature="e#15213#15214#0" expanded="false" />
-            <element signature="e#15250#15251#0" expanded="false" />
-            <element signature="e#15289#15290#0" expanded="false" />
-            <element signature="e#15321#15322#0" expanded="false" />
-            <element signature="e#15364#15365#0" expanded="false" />
-            <element signature="e#15400#15401#0" expanded="false" />
-            <element signature="e#15439#15440#0" expanded="false" />
-            <element signature="e#15469#15470#0" expanded="false" />
-            <element signature="e#15510#15511#0" expanded="false" />
-            <element signature="e#15546#15547#0" expanded="false" />
-            <element signature="e#15586#15587#0" expanded="false" />
-            <element signature="e#15622#15623#0" expanded="false" />
-            <element signature="e#15659#15660#0" expanded="false" />
-            <element signature="e#15689#15690#0" expanded="false" />
-            <element signature="e#15737#15738#0" expanded="false" />
-            <element signature="e#15781#15782#0" expanded="false" />
-            <element signature="e#15819#15820#0" expanded="false" />
-            <element signature="e#15853#15854#0" expanded="false" />
-            <element signature="e#15901#15902#0" expanded="false" />
-            <element signature="e#15945#15946#0" expanded="false" />
-            <element signature="e#16001#16002#0" expanded="false" />
-            <element signature="e#16053#16054#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1664,43 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="78" column="60" lean-forward="false" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
-          <folding>
-            <element signature="docComment;class#Item#0" expanded="false" />
-            <element signature="docComment;method#Item#0;class#Item#0" expanded="false" />
-            <element signature="method#Item#0;class#Item#0" expanded="false" />
-            <element signature="docComment;method#Item#1;class#Item#0" expanded="false" />
-            <element signature="method#Item#1;class#Item#0" expanded="false" />
-            <element signature="docComment;method#Item#2;class#Item#0" expanded="false" />
-            <element signature="method#Item#2;class#Item#0" expanded="false" />
-            <element signature="docComment;method#Item#3;class#Item#0" expanded="false" />
-            <element signature="method#Item#3;class#Item#0" expanded="false" />
-            <element signature="docComment;method#initiateVocal#0;class#Item#0" expanded="false" />
-            <element signature="method#initiateVocal#0;class#Item#0" expanded="false" />
-            <element signature="e#2753#2754#0" expanded="false" />
-            <element signature="e#2780#2781#0" expanded="false" />
-            <element signature="e#2819#2820#0" expanded="false" />
-            <element signature="e#2851#2852#0" expanded="false" />
-            <element signature="e#2893#2894#0" expanded="false" />
-            <element signature="e#2931#2932#0" expanded="false" />
-            <element signature="e#2961#2962#0" expanded="false" />
-            <element signature="e#2991#2992#0" expanded="false" />
-            <element signature="e#3031#3032#0" expanded="false" />
-            <element signature="e#3067#3068#0" expanded="false" />
-            <element signature="e#3114#3115#0" expanded="false" />
-            <element signature="e#3154#3155#0" expanded="false" />
-            <element signature="e#3183#3184#0" expanded="false" />
-            <element signature="e#3212#3213#0" expanded="false" />
-            <element signature="e#3246#3247#0" expanded="false" />
-            <element signature="e#3277#3278#0" expanded="false" />
-            <element signature="e#3306#3307#0" expanded="false" />
-            <element signature="e#3335#3336#0" expanded="false" />
-            <element signature="e#3372#3373#0" expanded="false" />
-            <element signature="e#3406#3407#0" expanded="false" />
-            <element signature="e#3459#3460#0" expanded="false" />
-            <element signature="e#3505#3506#0" expanded="false" />
-            <element signature="e#3545#3546#0" expanded="false" />
-            <element signature="e#3581#3582#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1708,13 +1062,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding>
-            <element signature="method#Game#0;class#Game#0" expanded="false" />
-            <element signature="method#advanceToNextMap#0;class#Game#0" expanded="false" />
-            <element signature="method#createCurrentPrompt#0;class#Game#0" expanded="false" />
-            <element signature="method#createFightPrompt#0;class#Game#0" expanded="false" />
-            <element signature="method#randInt#0;class#Game#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1722,7 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1730,11 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="method#getUserName#0;class#GameHandler#0" expanded="false" />
-            <element signature="method#getUserGender#0;class#GameHandler#0" expanded="false" />
-            <element signature="method#getUserDifficulty#0;class#GameHandler#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
