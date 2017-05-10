@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DragonSlayer:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/DragonSlayer_jar</output-path>
+    <root id="archive" name="DragonSlayer.jar">
+      <element id="module-output" name="DragonSlayer" />
+    </root>
+  </artifact>
+</component>

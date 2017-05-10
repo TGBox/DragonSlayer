@@ -1,0 +1,29 @@
+switch (this.difficulty){
+  case Baby:
+
+      break;
+  case VeryEasy:
+
+      break;
+  case Easy:
+
+      break;
+  case Regular:
+
+      break;
+  case Tough:
+
+      break;
+  case Hard:
+
+      break;
+  case Extreme:
+
+      break;
+  case Nightmare:
+
+      break;
+  default:
+
+      break;
+}
