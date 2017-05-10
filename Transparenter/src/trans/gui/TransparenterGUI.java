@@ -63,6 +63,9 @@ public class TransparenterGUI extends JFrame implements ActionListener {
     private FileNameExtensionFilter filter;
     private BufferedImage displayImage;
 
+    /**
+     * constructor method to create a new TransparenterGUI object.
+     */
     private TransparenterGUI(){
         super("Transparenter");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
