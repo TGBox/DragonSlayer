@@ -14,39 +14,42 @@ import java.awt.image.BufferedImage;
  */
 public class ImagePanel extends JPanel {
 
-    // TODO try image panel in transparenter gui
+  // TODO try image panel in transparenter gui
 
-    private BufferedImage image;
-    private int imageWidth;
-    private int imageHeight;
+  private BufferedImage image;
+  private int imageWidth;
+  private int imageHeight;
 
-    public ImagePanel(){
+  public ImagePanel() {
 
-    }
+  }
 
-    public ImagePanel(BufferedImage image){
-        this.image = image;
-        this.imageWidth = image.getWidth();
-        this.imageHeight = image.getHeight();
-    }
+  public ImagePanel(BufferedImage image) {
+    this.image = image;
+    this.imageWidth = image.getWidth();
+    this.imageHeight = image.getHeight();
+  }
 
-    @Override
-    protected void paintComponent(Graphics g) {
-        super.paintComponent(g);
-    }
+  @Override
+  protected void paintComponent(Graphics g) {
+    super.paintComponent(g);
+  }
 
-    public BufferedImage getImage() {
-        return image;
-    }
-    public int getImageHeight() {
-        return imageHeight;
-    }
-    public int getImageWidth() {
-        return imageWidth;
-    }
-    public void setImage(BufferedImage image) {
-        this.image = image;
-        this.imageWidth = image.getWidth();
-        this.imageHeight = image.getHeight();
-    }
+  public BufferedImage getImage() {
+    return image;
+  }
+
+  public int getImageHeight() {
+    return imageHeight;
+  }
+
+  public int getImageWidth() {
+    return imageWidth;
+  }
+
+  public void setImage(BufferedImage image) {
+    this.image = image;
+    this.imageWidth = image.getWidth();
+    this.imageHeight = image.getHeight();
+  }
 }
