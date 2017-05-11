@@ -1,7 +1,8 @@
 package newVersion.classes;
 
-import newVersion.meta.Difficulty;
-import newVersion.meta.Gender;
+import java.util.concurrent.ThreadLocalRandom;
+import newVersion.meta.GameConstants.Difficulty;
+import newVersion.meta.GameConstants.Gender;
 import newVersion.meta.Position;
 
 /**
@@ -69,6 +70,15 @@ public class Character {
     private static final int LEVEL_THRESHOLD_10 = 1500;
     private static final int LEVEL_THRESHOLD_11 = 2000;
 
+    private static final double RUN_THRESHOLD_BABY = 0.20;
+    private static final double RUN_THRESHOLD_VERY_EASY = 0.30;
+    private static final double RUN_THRESHOLD_EASY = 0.40;
+    private static final double RUN_THRESHOLD_REGULAR = 0.50;
+    private static final double RUN_THRESHOLD_TOUGH = 0.60;
+    private static final double RUN_THRESHOLD_HARD = 0.70;
+    private static final double RUN_THRESHOLD_EXTREME = 0.80;
+    private static final double RUN_THRESHOLD_NIGHTMARE = 0.90;
+
     private String name;
     public boolean vocal;
     private Gender gender;
@@ -82,6 +92,8 @@ public class Character {
     private int killCount;
     private int experience;
     private int startingHealth;
+
+    // Todo create possibility to walk
 
     /**
      * constructor method to create a new Character object.
@@ -389,6 +401,55 @@ public class Character {
     }
 
     /**
+     * method to calculate if the character is able to run away from any enemy.
+     * takes the run threshold values from the scope and evaluates a randomly
+     * generated double between 0 and 1 against it.
+     * @return boolean true if the player escapes, false if not.
+     */
+    public boolean run(){
+        double threshold;
+        switch (this.difficulty){
+            case Baby:
+                threshold = RUN_THRESHOLD_BABY;
+                break;
+            case VeryEasy:
+                threshold = RUN_THRESHOLD_VERY_EASY;
+                break;
+            case Easy:
+                threshold = RUN_THRESHOLD_EASY;
+                break;
+            case Regular:
+                threshold = RUN_THRESHOLD_REGULAR;
+                break;
+            case Tough:
+                threshold = RUN_THRESHOLD_TOUGH;
+                break;
+            case Hard:
+                threshold = RUN_THRESHOLD_HARD;
+                break;
+            case Extreme:
+                threshold = RUN_THRESHOLD_EXTREME;
+                break;
+            case Nightmare:
+                threshold = RUN_THRESHOLD_NIGHTMARE;
+                break;
+            default:
+                threshold = RUN_THRESHOLD_REGULAR;
+                break;
+        }
+        return randDouble() >= threshold;
+    }
+
+    /**
+     * method to check if a planned attack of the character can hit an enemy.
+     * generates a random double value and checks if it is beyond the threshold of the weapon.
+     * @return boolean true if the attack hits, false else.
+     */
+    public boolean hits(){
+        return randDouble() >= this.getWeapon().getAccuracy();
+    }
+
+    /**
      * method to initialize the vocal boolean.
      * is set to true if the name begins with an vocal.
      * will be needed to adapt the articles for the words.
@@ -400,6 +461,14 @@ public class Character {
         } else {
             this.vocal = false;
         }
+    }
+
+    /**
+     * method to generate a random double between 0 and 1.
+     * @return the randomly generated double.
+     */
+    private static double randDouble(){
+        return ThreadLocalRandom.current().nextDouble(0.00, 1.00);
     }
 
     // Getter and setter methods.

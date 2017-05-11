@@ -1,5 +1,7 @@
 package newVersion.classes;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 /**
  * Created by
  * Daniel Roesch
@@ -46,6 +48,23 @@ public class Enemy {
         this.weapon = weapon;
         this.startingHealth = health;
         this.isBoss = isBoss;
+    }
+
+    /**
+     * method to check if a planned attack of the enemy can hit the player.
+     * generates a random double value and checks if it is beyond the threshold of the weapon.
+     * @return boolean true if the attack hits, false else.
+     */
+    public boolean hits(){
+        return randDouble() >= this.getWeapon().getAccuracy();
+    }
+
+    /**
+     * method to generate a random double between 0 and 1.
+     * @return the randomly generated double.
+     */
+    private static double randDouble(){
+        return ThreadLocalRandom.current().nextDouble(0.00, 1.00);
     }
 
     /**

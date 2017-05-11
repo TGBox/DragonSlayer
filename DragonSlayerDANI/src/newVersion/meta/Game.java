@@ -5,6 +5,8 @@ import newVersion.classes.Character;
 import newVersion.classes.Enemy;
 import newVersion.classes.Field;
 import newVersion.classes.Map;
+import newVersion.meta.GameConstants.Difficulty;
+import newVersion.meta.GameConstants.Gender;
 import newVersion.newCreators.MapCreator;
 import newVersion.oldCreators.WeaponCreator;
 

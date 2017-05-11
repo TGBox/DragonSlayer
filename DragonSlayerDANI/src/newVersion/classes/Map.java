@@ -4,7 +4,7 @@ package newVersion.classes;
 import static newVersion.oldCreators.FieldCreator.createAdaptedField;
 
 import java.util.concurrent.ThreadLocalRandom;
-import newVersion.meta.Difficulty;
+import newVersion.meta.GameConstants.Difficulty;
 import newVersion.meta.Position;
 import newVersion.newCreators.FieldCreator;
 import newVersion.oldCreators.ConsumableCreator;

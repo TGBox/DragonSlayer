@@ -1,6 +1,8 @@
 package newVersion.meta;
 
 import javax.swing.JOptionPane;
+import newVersion.meta.GameConstants.Difficulty;
+import newVersion.meta.GameConstants.Gender;
 
 /**
  * Created by

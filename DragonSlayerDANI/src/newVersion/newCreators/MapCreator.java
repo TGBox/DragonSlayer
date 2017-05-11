@@ -1,7 +1,7 @@
 package newVersion.newCreators;
 
 import java.util.concurrent.ThreadLocalRandom;
-import newVersion.meta.Difficulty;
+import newVersion.meta.GameConstants.Difficulty;
 import newVersion.classes.Field;
 import newVersion.classes.Map;
 import newVersion.meta.Position;

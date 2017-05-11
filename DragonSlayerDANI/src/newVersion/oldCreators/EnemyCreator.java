@@ -1,6 +1,6 @@
 package newVersion.oldCreators;
 
-import newVersion.meta.Difficulty;
+import newVersion.meta.GameConstants.Difficulty;
 import newVersion.classes.Enemy;
 import newVersion.classes.Item;
 
