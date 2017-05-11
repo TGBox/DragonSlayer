@@ -76,6 +76,10 @@ public class Game{
     } else if(current().hasEnemy()){
       inFight = true;
       return createFightPrompt();
+    } else if(current().isPortal()){
+      // TODO implement portal prompts.
+    } else if(current().hasNPC()){
+      // TODO implement npc prompts.
     } else {
       String prompt = "You are standing on a";
       if(current().vocal){
@@ -87,6 +91,7 @@ public class Game{
       prompt += ". What do you want to do?\nType \"help\" or \"h\" to get to the help screen.";
       return prompt;
     }
+    return null;    // <== NEEDS CHANGES!!!
   }
 
   /**

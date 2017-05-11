@@ -43,7 +43,8 @@ public class MapCreator {
         dungeon = new Position(randInt(0, map.getDungeon().getFields().length),
             randInt(0, map.getDungeon().getFields()[0].length));
       }
-      map.getFields()[dungeon.x][dungeon.y] = new Field("dungeon entrance", mapID);
+      map.getFields()[dungeon.x][dungeon.y] = new Field("dungeon entrance", mapID,
+          true);
     }
     return map;
   }
@@ -61,7 +62,7 @@ public class MapCreator {
     Map map = new Map(x, y, diff, mapID, playerLvl, true);
     int exitX = randInt(0, map.getFields().length);
     int exitY = randInt(0, map.getFields()[0].length);
-    map.getFields()[exitX][exitY] = new Field("dungeon exit", mapID);
+    map.getFields()[exitX][exitY] = new Field("dungeon exit", mapID, true);
     // TODO: maybe more rewards for the dungeons?
     return map;
   }

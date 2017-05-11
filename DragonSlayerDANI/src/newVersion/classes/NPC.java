@@ -12,6 +12,7 @@ public class NPC {
 
     private String name;
     public boolean vocal;
+    private boolean wasVisited;
     private int health;
     private Item weapon;
     private boolean hasQuest;
@@ -36,6 +37,7 @@ public class NPC {
                int questID, Item reward, String[] sentences){
         this.name = name;
         initiateVocal();
+        this.wasVisited = false;
         this.health = health;
         this.weapon = weapon;
         this.questID = questID;
@@ -101,6 +103,9 @@ public class NPC {
     public String getAttackResponse() {
         return attackResponse;
     }
+    public boolean wasVisited() {
+        return wasVisited;
+    }
     public void setName(String name) {
         this.name = name;
     }
@@ -133,5 +138,8 @@ public class NPC {
     }
     public void setAttackResponse(String attackResponse) {
         this.attackResponse = attackResponse;
+    }
+    public void setWasVisited(boolean wasVisited) {
+        this.wasVisited = wasVisited;
     }
 }
