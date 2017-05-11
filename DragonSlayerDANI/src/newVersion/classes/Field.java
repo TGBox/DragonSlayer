@@ -151,6 +151,9 @@ public class Field {
     public int getMapID() {
         return mapID;
     }
+    public NPC getNpc() {
+        return npc;
+    }
     public boolean wasVisited() {
         return wasVisited;
     }
@@ -174,5 +177,8 @@ public class Field {
     }
     public void setPortal(boolean portal) {
         isPortal = portal;
+    }
+    public void setNpc(NPC npc) {
+        this.npc = npc;
     }
 }

@@ -51,6 +51,22 @@ public class Enemy {
     }
 
     /**
+     * method to inflict damage to the enemy.
+     * returns a boolean value to check if the enemy is still alive.
+     * @param inflictedDmg the int inflicted damage.
+     * @return boolean true if enemy still alive, false if dead.
+     */
+    public boolean damageAndCheckIfAlive(int inflictedDmg){
+        this.health -= inflictedDmg;
+        if(this.health <= 0){   // if enemy dies.
+            this.health = 0;
+            return false;
+        } else {                // if enemy survives.
+            return true;
+        }
+    }
+
+    /**
      * method to check if a planned attack of the enemy can hit the player.
      * generates a random double value and checks if it is beyond the threshold of the weapon.
      * @return boolean true if the attack hits, false else.

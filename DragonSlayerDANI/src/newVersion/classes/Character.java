@@ -249,6 +249,19 @@ public class Character {
         }
     }
 
+    public int levelUp(NPC killedNpc){
+        int lvlBefore = this.level;
+        this.experience += calculateGainedXP(killedNpc.getStartingHealth());
+        this.level = calculateNewLevel(this.experience);
+        int lvlUpDifference = this.level - lvlBefore;
+        if(lvlUpDifference > 0){
+            for (int i = 0; i < lvlUpDifference; i++) {
+                this.startingHealth += getHealthBonus();
+            }
+        }
+        return lvlUpDifference;
+    }
+
     /**
      * method to level up a character for killing an enemy.
      * calculates bonus for health for the character.
@@ -356,6 +369,22 @@ public class Character {
     }
 
     /**
+     * method to inflict damage to the character.
+     * returns a boolean value to check if the player is still alive.
+     * @param inflictedDmg the int inflicted damage.
+     * @return boolean true if character still alive, false if dead.
+     */
+    public boolean damageAndCheckIfAlive(int inflictedDmg){
+        this.health -= inflictedDmg;
+        if(this.health <= 0){   // if players dies.
+            this.health = 0;
+            return false;
+        } else {                // if player survives.
+            return true;
+        }
+    }
+
+    /**
      * method to delete an item from the bag at a given index.
      * @param index the int index.
      * @return boolean true if the item was deleted, false if not.
@@ -398,6 +427,21 @@ public class Character {
         for(int i = 0; i < oldBag.length; i++){
             bag[i] = oldBag[i];
         }
+    }
+
+    /**
+     * method to check if the character has a specific quest item in their inventory.
+     * returns the index of the item in the bag or -1 if the item is not part of the bag.
+     * @param questID the int questID that should match the toolID of the item.
+     * @return int index or negative error value.
+     */
+    public int getQuestItemIndex(int questID){
+        for (int i = 0; i < bagCounter; i++) {
+            if(bag[i].getToolID() == questID){
+                return i;
+            }
+        }
+        return -1;
     }
 
     /**

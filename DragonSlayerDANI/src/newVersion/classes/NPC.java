@@ -1,5 +1,7 @@
 package newVersion.classes;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 /**
  * Created by
  * Daniel Roesch
@@ -10,10 +12,15 @@ package newVersion.classes;
  */
 public class NPC {
 
+    // NPCs without a quest will have a meeting phrase, attack response and for quest completed,
+    // they will get the string that will be printed if the user contacts the npc again.
+    // questNotCompleted will not be set.
+
     private String name;
     public boolean vocal;
     private boolean wasVisited;
     private int health;
+    private int startingHealth;
     private Item weapon;
     private boolean hasQuest;
     private boolean isQuestCompleted;
@@ -39,6 +46,7 @@ public class NPC {
         initiateVocal();
         this.wasVisited = false;
         this.health = health;
+        this.startingHealth = health;
         this.weapon = weapon;
         this.questID = questID;
         this.reward = reward;
@@ -53,6 +61,39 @@ public class NPC {
             this.hasQuest = false;
         }
 
+    }
+
+    /**
+     * method to inflict damage to the npc.
+     * returns a boolean value to check if the npc is still alive.
+     * @param inflictedDmg the int inflicted damage.
+     * @return boolean true if npc still alive, false if dead.
+     */
+    public boolean damageAndCheckIfAlive(int inflictedDmg){
+        this.health -= inflictedDmg;
+        if(this.health <= 0){   // if npc dies.
+            this.health = 0;
+            return false;
+        } else {                // if npc survives.
+            return true;
+        }
+    }
+
+    /**
+     * method to check if a planned attack of the character can hit an enemy.
+     * generates a random double value and checks if it is beyond the threshold of the weapon.
+     * @return boolean true if the attack hits, false else.
+     */
+    public boolean hits(){
+        return randDouble() >= this.getWeapon().getAccuracy();
+    }
+
+    /**
+     * method to generate a random double between 0 and 1.
+     * @return the randomly generated double.
+     */
+    private static double randDouble(){
+        return ThreadLocalRandom.current().nextDouble(0.00, 1.00);
     }
 
     /**
@@ -75,6 +116,9 @@ public class NPC {
     }
     public int getHealth() {
         return health;
+    }
+    public int getStartingHealth() {
+        return startingHealth;
     }
     public Item getWeapon() {
         return weapon;
@@ -111,6 +155,9 @@ public class NPC {
     }
     public void setHealth(int health) {
         this.health = health;
+    }
+    public void setStartingHealth(int startingHealth) {
+        this.startingHealth = startingHealth;
     }
     public void setWeapon(Item weapon) {
         this.weapon = weapon;
