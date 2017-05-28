@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: old.text.newTextBasedVersion.meta.TextGameHandler
+Main-Class: depr.old.text.newTextBasedVersion.meta.TextGameHandler
 
