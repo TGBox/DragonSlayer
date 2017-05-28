@@ -7,60 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3c5f79-1553-4fca-a640-c4ddb5d19da5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/Item.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/templates/Character.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/templates/Thing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/meta/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/meta/Position.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SwitchCaseDifficulty.txt" afterPath="$PROJECT_DIR$/src/depr/SwitchCaseDifficulty.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/classes/Character.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/classes/Character.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/classes/Enemy.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/classes/Enemy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/classes/Field.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/classes/Field.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/classes/Item.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/classes/Item.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/classes/Map.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/classes/Map.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/classes/NPC.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/classes/NPC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/meta/Game.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/meta/Game.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/meta/GameConstants.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/meta/GameConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/meta/GameHandler.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/meta/GameHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/meta/NPCWithItem.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/meta/NPCWithItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/meta/Position.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/meta/Position.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/newCreators/FieldCreator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/newCreators/FieldCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/newCreators/MapCreator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/newCreators/MapCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/newCreators/NPC_Creator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/newCreators/NPC_Creator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/newCreators/ToolCreator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/newCreators/ToolCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/newCreators/WeaponCreator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/newCreators/WeaponCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/oldCreators/ConsumableCreator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/oldCreators/ConsumableCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/oldCreators/EnemyCreator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/oldCreators/EnemyCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/oldCreators/FieldCreator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/oldCreators/FieldCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/newVersion/oldCreators/WeaponCreator.java" afterPath="$PROJECT_DIR$/src/depr/newVersion/oldCreators/WeaponCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/classes/Character.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/classes/Character.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/classes/Enemy.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/classes/Enemy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/classes/Field.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/classes/Field.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/classes/Item.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/classes/Item.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/classes/Map.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/classes/Map.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/creators/ConsumableCreator.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/creators/ConsumableCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/creators/EnemyCreator.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/creators/EnemyCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/creators/FieldCreator.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/creators/FieldCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/creators/WeaponCreator.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/creators/WeaponCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/meta/Difficulty.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/meta/Difficulty.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/meta/Gender.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/meta/Gender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/newTextBasedVersion/meta/TextGameHandler.java" afterPath="$PROJECT_DIR$/src/depr/old/text/newTextBasedVersion/meta/TextGameHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/Character.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/Character.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/Enemy.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/Enemy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/EnemyList.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/EnemyList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/Field.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/Field.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/FieldList.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/FieldList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/GameStart.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/GameStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/GameStartGUI.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/GameStartGUI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/Item.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/Item.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/ItemList.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/ItemList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/old/text/oldChangedVersion/Map.java" afterPath="$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/Map.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/testing/TestGUI.java" afterPath="$PROJECT_DIR$/src/depr/testing/TestGUI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/testing/TestGame.java" afterPath="$PROJECT_DIR$/src/depr/testing/TestGame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/testing/TestHandler.java" afterPath="$PROJECT_DIR$/src/depr/testing/TestHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/Enemy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/Field.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/NPC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/templates/AbstractMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,44 +25,16 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DragonSlayerDANI" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Enemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="method#Enemy#0;class#Enemy#0" expanded="false" />
-                <element signature="method#Enemy#1;class#Enemy#0" expanded="false" />
-                <element signature="method#damageAndCheckIfAlive#0;class#Enemy#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NPC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/NPC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1147">
-              <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-              <folding>
-                <element signature="method#NPC#0;class#NPC#0" expanded="false" />
-                <element signature="method#damageAndCheckIfAlive#0;class#NPC#0" expanded="false" />
-                <element signature="method#randDouble#0;class#NPC#0" expanded="false" />
-                <element signature="method#initiateVocal#0;class#NPC#0" expanded="false" />
-                <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
-                <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Field.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Field.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1550">
-              <caret line="179" column="5" lean-forward="false" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
+            <state relative-caret-position="366">
+              <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="182" selection-end-column="5" />
               <folding>
                 <element signature="method#Field#0;class#Field#0" expanded="false" />
                 <element signature="method#Field#1;class#Field#0" expanded="false" />
@@ -121,8 +44,79 @@
                 <element signature="method#Field#5;class#Field#0" expanded="false" />
                 <element signature="method#Field#6;class#Field#0" expanded="false" />
                 <element signature="method#initiateVocal#0;class#Field#0" expanded="false" />
-                <element signature="e#4781#4782#0" expanded="true" />
-                <element signature="e#4814#4815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/current/classes/Enemy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Enemy#0;class#Enemy#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NPC.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/current/classes/NPC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#NPC#0;class#NPC#0" expanded="false" />
+                <element signature="method#NPC#1;class#NPC#0" expanded="false" />
+                <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
+                <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/current/classes/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1566">
+              <caret line="137" column="4" lean-forward="false" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="29" />
+              <folding>
+                <element signature="method#Field#0;class#Field#0" expanded="false" />
+                <element signature="method#Field#1;class#Field#0" expanded="false" />
+                <element signature="method#Field#2;class#Field#0" expanded="false" />
+                <element signature="e#3028#3029#0" expanded="true" />
+                <element signature="e#3062#3063#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="227" column="4" lean-forward="false" selection-start-line="227" selection-start-column="4" selection-end-line="263" selection-end-column="5" />
+              <folding>
+                <element signature="e#10136#10137#0" expanded="true" />
+                <element signature="e#10185#10186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractMap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/current/classes/templates/AbstractMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,8 +125,8 @@
       <file leaf-file-name="Character.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="583" column="5" lean-forward="true" selection-start-line="517" selection-start-column="4" selection-end-line="583" selection-end-column="5" />
+            <state relative-caret-position="-13">
+              <caret line="583" column="5" lean-forward="false" selection-start-line="517" selection-start-column="4" selection-end-line="583" selection-end-column="5" />
               <folding>
                 <element signature="method#damageAndCheckIfAlive#0;class#Character#0" expanded="false" />
                 <element signature="method#deleteItem#0;class#Character#0" expanded="false" />
@@ -149,7 +143,7 @@
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/meta/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="-13">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -159,7 +153,7 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/classes/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
+            <state relative-caret-position="-13">
               <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
               <folding>
                 <element signature="method#Item#0;class#Item#0" expanded="false" />
@@ -173,8 +167,8 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/classes/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="-13">
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Player#0;class#Player#0" expanded="false" />
@@ -212,10 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/text/newTextBasedVersion/classes/Map.java" />
-        <option value="$PROJECT_DIR$/src/text/newTextBasedVersion/creators/FieldCreator.java" />
-        <option value="$PROJECT_DIR$/src/text/newTextBasedVersion/creators/WeaponCreator.java" />
-        <option value="$PROJECT_DIR$/src/text/newTextBasedVersion/meta/TextGameHandler.java" />
         <option value="$PROJECT_DIR$/src/text/newTextBasedVersion/classes/Character.java" />
         <option value="$PROJECT_DIR$/src/testing/TestGame.java" />
         <option value="$PROJECT_DIR$/src/text/newTextBasedVersion/creators/EnemyCreator.java" />
@@ -263,6 +253,10 @@
         <option value="$PROJECT_DIR$/src/current/classes/Item.java" />
         <option value="$PROJECT_DIR$/src/current/meta/Constants.java" />
         <option value="$PROJECT_DIR$/src/current/classes/Player.java" />
+        <option value="$PROJECT_DIR$/src/current/classes/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/current/classes/NPC.java" />
+        <option value="$PROJECT_DIR$/src/current/classes/Field.java" />
+        <option value="$PROJECT_DIR$/src/current/classes/templates/AbstractMap.java" />
       </list>
     </option>
   </component>
@@ -332,6 +326,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="depr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="depr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newVersion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="depr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newVersion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -340,7 +440,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Transer/Transparenter" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -742,11 +842,28 @@
       <option name="project" value="LOCAL" />
       <updated>1494533350919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="started improved version after class diagram">
+      <created>1496005624180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496005624180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -757,7 +874,8 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14270833" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14270833" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -769,7 +887,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -807,7 +924,8 @@
     <MESSAGE value="game handler class updated for new version" />
     <MESSAGE value="npc, game and field updated" />
     <MESSAGE value="classes updated and game class prompt methods added. but methods contain senseless stuff that should be altered or adjusted!" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes updated and game class prompt methods added. but methods contain senseless stuff that should be altered or adjusted!" />
+    <MESSAGE value="started improved version after class diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="started improved version after class diagram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,34 +938,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/EnemyList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/FieldList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/GameStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/depr/old/text/oldChangedVersion/GameStartGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1088,29 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5704">
-          <caret line="262" column="42" lean-forward="false" selection-start-line="262" selection-start-column="42" selection-end-line="262" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/NPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1147">
-          <caret line="96" column="5" lean-forward="false" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-          <folding>
-            <element signature="method#NPC#0;class#NPC#0" expanded="false" />
-            <element signature="method#damageAndCheckIfAlive#0;class#NPC#0" expanded="false" />
-            <element signature="method#randDouble#0;class#NPC#0" expanded="false" />
-            <element signature="method#initiateVocal#0;class#NPC#0" expanded="false" />
-            <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
-            <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="734">
@@ -1121,18 +1188,6 @@
             <element signature="method#Item#2;class#Item#0" expanded="false" />
             <element signature="method#Item#3;class#Item#0" expanded="false" />
             <element signature="method#initiateVocal#0;class#Item#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Enemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="method#Enemy#0;class#Enemy#0" expanded="false" />
-            <element signature="method#Enemy#1;class#Enemy#0" expanded="false" />
-            <element signature="method#damageAndCheckIfAlive#0;class#Enemy#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1160,7 +1215,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/classes/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
+        <state relative-caret-position="-13">
           <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
           <folding>
             <element signature="method#Item#0;class#Item#0" expanded="false" />
@@ -1180,7 +1235,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/meta/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="-13">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
@@ -1188,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="583" column="5" lean-forward="true" selection-start-line="517" selection-start-column="4" selection-end-line="583" selection-end-column="5" />
+        <state relative-caret-position="-13">
+          <caret line="583" column="5" lean-forward="false" selection-start-line="517" selection-start-column="4" selection-end-line="583" selection-end-column="5" />
           <folding>
             <element signature="method#damageAndCheckIfAlive#0;class#Character#0" expanded="false" />
             <element signature="method#deleteItem#0;class#Character#0" expanded="false" />
@@ -1204,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/classes/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="-13">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Player#0;class#Player#0" expanded="false" />
@@ -1215,10 +1270,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <element signature="method#Enemy#0;class#Enemy#0" expanded="false" />
+            <element signature="method#Enemy#1;class#Enemy#0" expanded="false" />
+            <element signature="method#damageAndCheckIfAlive#0;class#Enemy#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Enemy#0;class#Enemy#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/NPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="190" column="5" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="190" selection-end-column="5" />
+          <folding>
+            <element signature="method#NPC#0;class#NPC#0" expanded="false" />
+            <element signature="method#damageAndCheckIfAlive#0;class#NPC#0" expanded="false" />
+            <element signature="method#randDouble#0;class#NPC#0" expanded="false" />
+            <element signature="method#initiateVocal#0;class#NPC#0" expanded="false" />
+            <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
+            <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/NPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#NPC#0;class#NPC#0" expanded="false" />
+            <element signature="method#NPC#1;class#NPC#0" expanded="false" />
+            <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
+            <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="179" column="5" lean-forward="false" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
+        <state relative-caret-position="366">
+          <caret line="140" column="4" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="182" selection-end-column="5" />
           <folding>
             <element signature="method#Field#0;class#Field#0" expanded="false" />
             <element signature="method#Field#1;class#Field#0" expanded="false" />
@@ -1228,8 +1335,44 @@
             <element signature="method#Field#5;class#Field#0" expanded="false" />
             <element signature="method#Field#6;class#Field#0" expanded="false" />
             <element signature="method#initiateVocal#0;class#Field#0" expanded="false" />
-            <element signature="e#4781#4782#0" expanded="true" />
-            <element signature="e#4814#4815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="137" column="4" lean-forward="false" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="29" />
+          <folding>
+            <element signature="method#Field#0;class#Field#0" expanded="false" />
+            <element signature="method#Field#1;class#Field#0" expanded="false" />
+            <element signature="method#Field#2;class#Field#0" expanded="false" />
+            <element signature="e#3028#3029#0" expanded="true" />
+            <element signature="e#3062#3063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="227" column="4" lean-forward="false" selection-start-line="227" selection-start-column="4" selection-end-line="263" selection-end-column="5" />
+          <folding>
+            <element signature="e#10136#10137#0" expanded="true" />
+            <element signature="e#10185#10186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/templates/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
           </folding>
         </state>
       </provider>
