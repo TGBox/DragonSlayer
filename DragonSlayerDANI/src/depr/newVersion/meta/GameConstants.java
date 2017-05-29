@@ -19,7 +19,7 @@ public class GameConstants {
     Gendermaverick, Genderpunk, Male, Polygenderflux, Transgender
   }
 
-  public enum Direction{
+  public enum Direction {
     Up, Right, Down, Left
   }
 

@@ -9,5 +9,5 @@ package depr.old.text.newTextBasedVersion.meta;
  * on 22.04.2017, 16:55.
  */
 public enum Difficulty {
-    EASY, MEDIUM, HARD
+  EASY, MEDIUM, HARD
 }

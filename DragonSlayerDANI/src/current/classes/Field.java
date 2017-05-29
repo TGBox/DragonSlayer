@@ -12,6 +12,7 @@ import current.classes.templates.Thing;
  */
 public class Field extends Thing {
 
+  // Default values.
   private static final boolean DEFAULT_BOOLEAN = false;
   private static final Enemy DEFAULT_ENEMY = null;
   private static final Item DEFAULT_ITEM = null;
@@ -86,16 +87,32 @@ public class Field extends Thing {
     return enemy;
   }
 
+  public void setEnemy(Enemy enemy) {
+    this.enemy = enemy;
+  }
+
   public Item getItem() {
     return item;
+  }
+
+  public void setItem(Item item) {
+    this.item = item;
   }
 
   public int getMapID() {
     return mapID;
   }
 
+  public void setMapID(int mapID) {
+    this.mapID = mapID;
+  }
+
   public NPC getNpc() {
     return npc;
+  }
+
+  public void setNpc(NPC npc) {
+    this.npc = npc;
   }
 
   public boolean wasVisited() {
@@ -106,35 +123,19 @@ public class Field extends Thing {
     return isPortal;
   }
 
-  public int getPortalID() {
-    return portalID;
-  }
-
-  public void setEnemy(Enemy enemy) {
-    this.enemy = enemy;
-  }
-
-  public void setItem(Item item) {
-    this.item = item;
-  }
-
-  public void setMapID(int mapID) {
-    this.mapID = mapID;
-  }
-
-  public void setWasVisited(boolean wasVisited) {
-    this.wasVisited = wasVisited;
-  }
-
   public void setPortal(boolean portal) {
     isPortal = portal;
   }
 
-  public void setNpc(NPC npc) {
-    this.npc = npc;
+  public int getPortalID() {
+    return portalID;
   }
 
   public void setPortalID(int portalID) {
     this.portalID = portalID;
+  }
+
+  public void setWasVisited(boolean wasVisited) {
+    this.wasVisited = wasVisited;
   }
 }

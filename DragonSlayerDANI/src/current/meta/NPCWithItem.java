@@ -1,7 +1,7 @@
-package depr.newVersion.meta;
+package current.meta;
 
-import depr.newVersion.classes.Item;
-import depr.newVersion.classes.NPC;
+import current.classes.Item;
+import current.classes.NPC;
 
 /**
  * Created by
@@ -9,13 +9,20 @@ import depr.newVersion.classes.NPC;
  * as "Nils Darmstrong".
  * -----------------
  * For "DragonSlayerDANI",
- * on 06.05.2017, 16:11.
+ * on 29.05.2017, 20:45.
  */
 public class NPCWithItem {
 
   private NPC npc;
   private Item item;
 
+  /**
+   * constructor method to create a new NPCWithItem object.
+   * is used to have an easy way to transfer both the npc as well as the corresponding quest item.
+   *
+   * @param npc the NPC.
+   * @param item the quest Item.
+   */
   public NPCWithItem(NPC npc, Item item) {
     this.npc = npc;
     this.item = item;
@@ -37,4 +44,5 @@ public class NPCWithItem {
   public void setItem(Item item) {
     this.item = item;
   }
+
 }

@@ -96,24 +96,48 @@ public class NPC extends Character {
     return questID;
   }
 
+  public void setQuestID(int questID) {
+    this.questID = questID;
+  }
+
   public Item getReward() {
     return reward;
+  }
+
+  public void setReward(Item reward) {
+    this.reward = reward;
   }
 
   public String getMeetingPhrase() {
     return meetingPhrase;
   }
 
+  public void setMeetingPhrase(String meetingPhrase) {
+    this.meetingPhrase = meetingPhrase;
+  }
+
   public String getQuestNotCompleted() {
     return questNotCompleted;
+  }
+
+  public void setQuestNotCompleted(String questNotCompleted) {
+    this.questNotCompleted = questNotCompleted;
   }
 
   public String getQuestCompleted() {
     return questCompleted;
   }
 
+  public void setQuestCompleted(String questCompleted) {
+    this.questCompleted = questCompleted;
+  }
+
   public String getAttackResponse() {
     return attackResponse;
+  }
+
+  public void setAttackResponse(String attackResponse) {
+    this.attackResponse = attackResponse;
   }
 
   public void setWasVisited(boolean wasVisited) {
@@ -122,29 +146,5 @@ public class NPC extends Character {
 
   public void setIsQuestCompleted(boolean isQuestCompleted) {
     this.isQuestCompleted = isQuestCompleted;
-  }
-
-  public void setQuestID(int questID) {
-    this.questID = questID;
-  }
-
-  public void setReward(Item reward) {
-    this.reward = reward;
-  }
-
-  public void setMeetingPhrase(String meetingPhrase) {
-    this.meetingPhrase = meetingPhrase;
-  }
-
-  public void setQuestNotCompleted(String questNotCompleted) {
-    this.questNotCompleted = questNotCompleted;
-  }
-
-  public void setQuestCompleted(String questCompleted) {
-    this.questCompleted = questCompleted;
-  }
-
-  public void setAttackResponse(String attackResponse) {
-    this.attackResponse = attackResponse;
   }
 }

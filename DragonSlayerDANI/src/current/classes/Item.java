@@ -74,33 +74,37 @@ public class Item extends Thing {
     this.healing = DEFAULT_INT;
   }
 
-  // Getter and setter methods.
-  public void setHealing(int healing) {
-    this.healing = healing;
-  }
-
   public int getHealing() {
     return healing;
   }
 
-  public void setAttack(int attack) {
-    this.attack = attack;
-  }
-
-  public void setAccuracy(double accuracy) {
-    this.accuracy = accuracy;
+  // Getter and setter methods.
+  public void setHealing(int healing) {
+    this.healing = healing;
   }
 
   public int getAttack() {
     return attack;
   }
 
+  public void setAttack(int attack) {
+    this.attack = attack;
+  }
+
   public double getAccuracy() {
     return accuracy;
   }
 
+  public void setAccuracy(double accuracy) {
+    this.accuracy = accuracy;
+  }
+
   public int getToolID() {
     return toolID;
+  }
+
+  public void setToolID(int toolID) {
+    this.toolID = toolID;
   }
 
   public String getDescription() {
@@ -109,9 +113,5 @@ public class Item extends Thing {
 
   public void setDescription(String description) {
     this.description = description;
-  }
-
-  public void setToolID(int toolID) {
-    this.toolID = toolID;
   }
 }

@@ -33,13 +33,13 @@ public abstract class Thing {
         this.name.charAt(0) == 'i' || this.name.charAt(0) == 'o' || this.name.charAt(0) == 'u';
   }
 
+  public String getName() {
+    return name;
+  }
+
   // Getter and setter methods.
   public void setName(String name) {
     this.name = name;
-  }
-
-  public String getName() {
-    return name;
   }
 
   public boolean isVocal() {

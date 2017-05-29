@@ -1,6 +1,6 @@
-package depr.newVersion.newCreators;
+package current.meta.gen;
 
-import depr.newVersion.classes.Item;
+import current.classes.Item;
 
 /**
  * Created by
@@ -8,9 +8,9 @@ import depr.newVersion.classes.Item;
  * as "Nils Darmstrong".
  * -----------------
  * For "DragonSlayerDANI",
- * on 04.05.2017, 23:51.
+ * on 29.05.2017, 20:42.
  */
-public class ToolCreator {
+public class ToolGenerator {
 
   /**
    * method to create a new item object that can be used in the game to advance to the next map.
@@ -44,7 +44,7 @@ public class ToolCreator {
    */
   public static Item createXPBooster(int gainedXP, int boosterID) {
     return new Item("Experience booster", "This magical potion grants "
-        + "you visions of fallen war heros,\nwhich boosts your experience by " +
+        + "you visions of fallen war heroes,\nwhich boosts your experience by " +
         gainedXP + " points.", boosterID);
   }
 
@@ -85,4 +85,5 @@ public class ToolCreator {
   public static Item createQuestItem(String name, String description, int questID) {
     return new Item(name, description, questID);
   }
+
 }

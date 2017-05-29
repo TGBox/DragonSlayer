@@ -17,14 +17,14 @@ import depr.old.text.newTextBasedVersion.meta.Gender;
  */
 public class TestGame {
 
-    public Character character;
-    public Enemy enemy;
+  public Character character;
+  public Enemy enemy;
 
-    public TestGame(){
-        Item weapon = WeaponCreator.createRandomWeapon();
-        character = new Character("player", Gender.Apache_Helicopter, Difficulty.EASY, 3, 3);
-        enemy = new Enemy("enemy", 2000, weapon, false);
+  public TestGame() {
+    Item weapon = WeaponCreator.createRandomWeapon();
+    character = new Character("player", Gender.Apache_Helicopter, Difficulty.EASY, 3, 3);
+    enemy = new Enemy("enemy", 2000, weapon, false);
 
-    }
+  }
 
 }

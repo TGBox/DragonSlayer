@@ -11,8 +11,7 @@ package depr.testing;
 public class TestHandler {
 
 
+  public TestHandler() {
 
-    public TestHandler(){
-
-    }
+  }
 }

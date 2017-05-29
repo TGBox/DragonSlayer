@@ -74,44 +74,44 @@ public class Player extends Character {
     return bag;
   }
 
-  public int getBagCounter() {
-    return bagCounter;
-  }
-
-  public int getLevel() {
-    return level;
-  }
-
-  public int getKillCount() {
-    return killCount;
-  }
-
-  public int getExperience() {
-    return experience;
-  }
-
-  public Difficulty getDifficulty() {
-    return difficulty;
-  }
-
   public void setBag(Item[] bag) {
     this.bag = bag;
+  }
+
+  public int getBagCounter() {
+    return bagCounter;
   }
 
   public void setBagCounter(int bagCounter) {
     this.bagCounter = bagCounter;
   }
 
+  public int getLevel() {
+    return level;
+  }
+
   public void setLevel(int level) {
     this.level = level;
+  }
+
+  public int getKillCount() {
+    return killCount;
   }
 
   public void setKillCount(int killCount) {
     this.killCount = killCount;
   }
 
+  public int getExperience() {
+    return experience;
+  }
+
   public void setExperience(int experience) {
     this.experience = experience;
+  }
+
+  public Difficulty getDifficulty() {
+    return difficulty;
   }
 
   public void setDifficulty(Difficulty difficulty) {

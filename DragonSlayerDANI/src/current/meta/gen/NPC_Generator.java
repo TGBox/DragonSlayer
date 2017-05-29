@@ -1,8 +1,9 @@
-package depr.newVersion.newCreators;
+package current.meta.gen;
 
-import depr.newVersion.classes.Item;
-import depr.newVersion.classes.NPC;
-import depr.newVersion.meta.NPCWithItem;
+import current.classes.Item;
+import current.classes.NPC;
+import current.meta.NPCWithItem;
+import current.meta.Position;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -11,9 +12,11 @@ import java.util.concurrent.ThreadLocalRandom;
  * as "Nils Darmstrong".
  * -----------------
  * For "DragonSlayerDANI",
- * on 05.05.2017, 00:19.
+ * on 29.05.2017, 20:44.
  */
-public class NPC_Creator {
+public class NPC_Generator {
+
+  private static final Position DEFAULT_POSITION = new Position(0, 0);
 
   // NPCs get separated in several groups to keep diversity in the occurrences.
   // one index gets used for name, item and description do ensure believable encounters.
@@ -25,9 +28,9 @@ public class NPC_Creator {
   public static final int CATEGORY_1 = 1;
   public static final int CATEGORY_2 = 2;
   // Expand NPC Creator.
-  private static final String[] PREFIXES = new String[]{"depr/old ", "wounded ", "fat ",
+  private static final String[] PREFIXES = new String[]{"old ", "wounded ", "fat ",
       "tall ", "muscular "};
-  private static final double[] PREFIX_VALS = new double[]{0.42, 0.66, 0.73, 1.25, 1.48};
+  private static final double[] PREFIX_VALUES = new double[]{0.42, 0.66, 0.73, 1.25, 1.48};
   private static final String[] NPC_NAMES_1 = new String[]{"hunter", "painter", "baker",
       "blacksmith", "cook", "bard", "lumberjack", "prince"};
   private static final String[] NPC_WEAPONS_1 = new String[]{"hunter's knife", "giant scissors",
@@ -117,11 +120,13 @@ public class NPC_Creator {
   private static final String ATTACK_RESP_0 = "Oh man, haven't beaten someone in a "
       + "long time! Let's dance!";
 
+  // TODO fix non matching npc class and generator.
+
   /**
    * method to create an NPC with a corresponding quest item.
    * both should be placed on the same map to ensure that the quest will be solvable.
    *
-   * @param category int to determine the category of npc. should be one of the predefined vals.
+   * @param category int to determine the category of npc. should be one of the predefined values.
    * @param mapID int mapID.
    * @param npcNrOnMap int number of the npc on the current map to set correct tool and questIDs.
    * @return the NPCWithItem object.
@@ -138,14 +143,15 @@ public class NPC_Creator {
         sentences0[1] = Q_N_C_0;
         sentences0[2] = Q_C_0;
         sentences0[3] = ATTACK_RESP_0;
-        NPC npc0 = new NPC(NPC_0, HEALTH_0, weapon0, toolID0, reward0, sentences0);
+        NPC npc0 = new NPC(NPC_0, HEALTH_0, weapon0, DEFAULT_POSITION, toolID0, reward0,
+            sentences0);
         return new NPCWithItem(npc0, questItem0);
       case CATEGORY_1:
         int generalIndex = rand(0, LOST_ITEMS_1.length - 1);
         int preIndex = rand(0, PREFIXES.length - 1);
-        int health = (int) (PREFIX_VALS[preIndex] * NPC_HEALTH_1[generalIndex]);
+        int health = (int) (PREFIX_VALUES[preIndex] * NPC_HEALTH_1[generalIndex]);
         String weaponName = NPC_WEAPONS_1[generalIndex];
-        int attack = (int) (WEAPON_ATTACKS[generalIndex] * PREFIX_VALS[preIndex]);
+        int attack = (int) (WEAPON_ATTACKS[generalIndex] * PREFIX_VALUES[preIndex]);
         double accuracy = ACCURACIES[rand(0, ACCURACIES.length - 1)];
         Item weapon = new Item(weaponName, attack, accuracy);
         String name = PREFIXES[preIndex] + NPC_NAMES_1[generalIndex];
@@ -167,24 +173,24 @@ public class NPC_Creator {
         Item reward;
         switch (rand(0, 3)) {
           case 0:     // weapon as reward.
-            reward = WeaponCreator.createRewardWeapon();
+            reward = WeaponGenerator.createRewardWeapon();
             break;
           case 1:     // xp booster.
-            reward = ToolCreator.createXPBooster(health, toolID + 1);
+            reward = ToolGenerator.createXPBooster(health, toolID + 1);
             break;
           case 2:     // health booster.
-            reward = ToolCreator.createMaxHealthBooster(health / 2,
+            reward = ToolGenerator.createMaxHealthBooster(health / 2,
                 toolID + 1);
             break;
           case 3:     // accuracy booster.
-            reward = ToolCreator.createAccuracyBooster(rand(10, 20),
+            reward = ToolGenerator.createAccuracyBooster(rand(10, 20),
                 toolID + 1);
             break;
           default:    // weapon
-            reward = WeaponCreator.createRewardWeapon();
+            reward = WeaponGenerator.createRewardWeapon();
             break;
         }
-        NPC npc = new NPC(name, health, weapon, toolID, reward, sentences);
+        NPC npc = new NPC(name, health, weapon, DEFAULT_POSITION, toolID, reward, sentences);
         return new NPCWithItem(npc, questItem);
       case CATEGORY_2:
         int genIndex = rand(0, NPC_NAMES_2.length - 1);
@@ -212,24 +218,24 @@ public class NPC_Creator {
         Item reward2;
         switch (rand(0, 3)) {
           case 0:     // weapon as reward.
-            reward2 = WeaponCreator.createRewardWeapon();
+            reward2 = WeaponGenerator.createRewardWeapon();
             break;
           case 1:     // xp booster.
-            reward2 = ToolCreator.createXPBooster(health2, toolID2 + 1);
+            reward2 = ToolGenerator.createXPBooster(health2, toolID2 + 1);
             break;
           case 2:     // health booster.
-            reward2 = ToolCreator.createMaxHealthBooster(health2 / 2,
+            reward2 = ToolGenerator.createMaxHealthBooster(health2 / 2,
                 toolID2 + 1);
             break;
           case 3:     // accuracy booster.
-            reward2 = ToolCreator.createAccuracyBooster(rand(10, 20),
+            reward2 = ToolGenerator.createAccuracyBooster(rand(10, 20),
                 toolID2 + 1);
             break;
           default:    // weapon
-            reward2 = WeaponCreator.createRewardWeapon();
+            reward2 = WeaponGenerator.createRewardWeapon();
             break;
         }
-        NPC npc2 = new NPC(name2, health2, weapon2, toolID2, reward2, sentences2);
+        NPC npc2 = new NPC(name2, health2, weapon2, DEFAULT_POSITION, toolID2, reward2, sentences2);
         return new NPCWithItem(npc2, questItem2);
       default:    // I'm default.
         weapon0 = new Item(WEAPON_NAME_0, ATTACK_0, ACC_0);
@@ -241,7 +247,7 @@ public class NPC_Creator {
         sentences0[1] = Q_N_C_0;
         sentences0[2] = Q_C_0;
         sentences0[3] = ATTACK_RESP_0;
-        npc0 = new NPC(NPC_0, HEALTH_0, weapon0, toolID0, reward0, sentences0);
+        npc0 = new NPC(NPC_0, HEALTH_0, weapon0, DEFAULT_POSITION, toolID0, reward0, sentences0);
         return new NPCWithItem(npc0, questItem0);
     }
   }
@@ -259,6 +265,11 @@ public class NPC_Creator {
     return ThreadLocalRandom.current().nextInt(min, max + 1);
   }
 
+  /**
+   * main method for testing purposes.
+   *
+   * @param args .
+   */
   public static void main(String[] args) {
     int item_nr = rand(0, LOST_ITEMS_1.length - 1);
     String name = NPC_NAMES_1[item_nr];

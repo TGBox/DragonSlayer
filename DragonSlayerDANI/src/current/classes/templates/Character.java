@@ -39,28 +39,28 @@ public abstract class Character extends Thing {
     return weapon;
   }
 
+  public void setWeapon(Item weapon) {
+    this.weapon = weapon;
+  }
+
   public int getHealth() {
     return health;
+  }
+
+  public void setHealth(int health) {
+    this.health = health;
   }
 
   public Position getPos() {
     return pos;
   }
 
-  public int getMaxHealth() {
-    return maxHealth;
-  }
-
   public void setPos(Position pos) {
     this.pos = pos;
   }
 
-  public void setWeapon(Item weapon) {
-    this.weapon = weapon;
-  }
-
-  public void setHealth(int health) {
-    this.health = health;
+  public int getMaxHealth() {
+    return maxHealth;
   }
 
   public void setMaxHealth(int maxHealth) {

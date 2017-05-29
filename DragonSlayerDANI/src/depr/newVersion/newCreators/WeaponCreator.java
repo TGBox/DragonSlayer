@@ -1,7 +1,7 @@
 package depr.newVersion.newCreators;
 
-import java.util.concurrent.ThreadLocalRandom;
 import depr.newVersion.classes.Item;
+import java.util.concurrent.ThreadLocalRandom;
 
 /**
  * Created by
@@ -30,12 +30,13 @@ public class WeaponCreator {
 
   /**
    * method to create a new weapon item that can be used by NPCs as a reward.
+   *
    * @return the created weapon item.
    */
-  public static Item createRewardWeapon(){
+  public static Item createRewardWeapon() {
     int index;
     String name = "";
-    if(ThreadLocalRandom.current().nextBoolean()){
+    if (ThreadLocalRandom.current().nextBoolean()) {
       index = randInt(0, SIZE.length - 1);
       name += SIZE_VALS[index] + " ";
     } else {
@@ -52,12 +53,13 @@ public class WeaponCreator {
    * method to create a random integer within given bounds.
    * the bounds are inclusive, so the random number can be the bound itself.
    * this method is the preferred standard after java 1.7.
+   *
    * @param min int minimum value.
    * @param max int maximum value.
    * @return the randomly generated int.
    */
-  private static int randInt(int min, int max){
-      return ThreadLocalRandom.current().nextInt(min, max + 1);
+  private static int randInt(int min, int max) {
+    return ThreadLocalRandom.current().nextInt(min, max + 1);
   }
 
 }
