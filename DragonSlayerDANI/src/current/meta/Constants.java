@@ -91,7 +91,7 @@ public class Constants {
       0.33, 0.50, 0.66, 0.75, 1.00, 1.32, 1.42, 1.99
   };
 
-  public static final int[] HEALING_ADJECTIVE_VALUES = new int[]{
+  public static final int[] HEALING_VALUES = new int[]{
       25, 50, 75, 100, 125, 150
   };
 
@@ -100,6 +100,20 @@ public class Constants {
   public static final double[] ACCURACIES = new double[]{
       0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70
   };
+
+  // Boss enemy constants.
+  public static final int BOSS_BASE_LIFE = 125;
+  public static final int BOSS_LIFE_MULTIPLIER = 50;
+  public static final double BOSS_MULTIPLIER_BABY = 0.42;
+  public static final double BOSS_MULTIPLIER_NOVICE = 0.75;
+  public static final double BOSS_MULTIPLIER_WARRIOR = 1.25;
+  public static final double BOSS_MULTIPLIER_GOD = 2.00;
+  public static final int BOSS_BASE_ATTACK = 65;
+  public static final int BOSS_ATTACK_MULTIPLIER = 10;
+  public static final double BOSS_ACCURACY_BABY = 0.89;
+  public static final double BOSS_ACCURACY_NOVICE = 0.70;
+  public static final double BOSS_ACCURACY_WARRIOR = 0.55;
+  public static final double BOSS_ACCURACY_GOD = 0.42;
 
   /**
    * method to get the amount of elements in one specific enum group.
