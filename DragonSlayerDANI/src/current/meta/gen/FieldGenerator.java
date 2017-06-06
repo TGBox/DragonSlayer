@@ -7,6 +7,9 @@ import static current.meta.Constants.getRandomEnum;
 import current.classes.Enemy;
 import current.classes.Field;
 import current.classes.Item;
+import current.meta.Constants;
+import current.meta.Constants.Difficulty;
+import current.meta.Constants.SpecialFieldNames;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -133,6 +136,40 @@ public class FieldGenerator {
             null, mapID);
         return field;
     }
+  }
+
+  /**
+   * method to create a new dungeon exit field.
+   *
+   * @param mapID int mapID.
+   * @return the Field.
+   */
+  public static Field createDungeonExit(int mapID){
+    return new Field("field with an exit to the dungeon", mapID, mapID);
+  }
+
+  /**
+   * method to create a new dungeon entrance field.
+   *
+   * @param mapID int mapID.
+   * @return the new Field.
+   */
+  public static Field createDungeonEntrance(int mapID){
+    return new Field("field with an entrance to a dungeon", mapID, mapID);
+  }
+
+  /**
+   * method to create a new boss field.
+   *
+   * @param mapID int mapID.
+   * @param levelOfPlayer int level of the player.
+   * @param difficulty Difficulty of the game.
+   * @return the field that contains the boss.
+   */
+  public static Field createBossField(int mapID, int levelOfPlayer, Difficulty difficulty){
+    Enemy boss = EnemyGenerator.createBossEnemy(difficulty, levelOfPlayer, mapID);
+    Item item = new Item("dragon's healing potion", 150);
+    return new Field(Constants.asString(SpecialFieldNames.burned_ground), boss, item, mapID);
   }
 
   /**

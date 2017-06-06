@@ -12,6 +12,27 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class Constants {
 
+  /*
+   *  Explanation concerning itemID, toolID, boosterID, mapID, etc.
+   *
+   *  mapID:
+   *  ranges from 1 to 10.
+   *
+   *  itemID:
+   *  gets translated into toolID, boosterID, etc.
+   *
+   *  boosterID:
+   *  ranges from 20 to 30
+   *
+   *  questID:
+   *  ranges from 100 to 200 (ranges freaky!) // TODO change that!
+   *
+   *  dungeonID:
+   *  matches corresponding mapID
+   *
+   *
+   */
+
   // Enums for the game.
   public enum Difficulty {
     Baby, Novice, Warrior, God
@@ -114,6 +135,16 @@ public class Constants {
   public static final double BOSS_ACCURACY_NOVICE = 0.70;
   public static final double BOSS_ACCURACY_WARRIOR = 0.55;
   public static final double BOSS_ACCURACY_GOD = 0.42;
+
+  // Map constants.
+  public static final int DUNGEON_MIN_WIDTH = 3;
+  public static final int DUNGEON_MIN_HEIGHT = 3;
+  public static final int DUNGEON_MAX_WIDTH = 6;
+  public static final int DUNGEON_MAX_HEIGHT = 6;
+  public static final int MAP_MIN_WIDTH = 5;
+  public static final int MAP_MIN_HEIGHT = 5;
+  public static final int MAP_MAX_WIDTH = 7;
+  public static final int MAP_MAX_HEIGHT = 7;
 
   /**
    * method to get the amount of elements in one specific enum group.

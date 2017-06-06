@@ -7,15 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3c5f79-1553-4fca-a640-c4ddb5d19da5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/meta/gen/ConsumableGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/meta/gen/EnemyGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/meta/gen/FieldGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/meta/gen/MapGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/usageExample/GUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/usageExample/Start.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/usageExample/TestController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/meta/Constants.java" afterPath="$PROJECT_DIR$/src/current/meta/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/meta/gen/FieldGenerator.java" afterPath="$PROJECT_DIR$/src/current/meta/gen/FieldGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/meta/gen/MapGenerator.java" afterPath="$PROJECT_DIR$/src/current/meta/gen/MapGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/meta/gen/NPC_Generator.java" afterPath="$PROJECT_DIR$/src/current/meta/gen/NPC_Generator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,13 +33,17 @@
       <file leaf-file-name="EnemyGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/meta/gen/EnemyGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="133">
               <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#EnemyGenerator#0" expanded="false" />
+                <element signature="docComment;method#createEnemy#0;class#EnemyGenerator#0" expanded="false" />
                 <element signature="method#createEnemy#0;class#EnemyGenerator#0" expanded="false" />
+                <element signature="docComment;method#min#0;class#EnemyGenerator#0" expanded="false" />
                 <element signature="method#min#0;class#EnemyGenerator#0" expanded="false" />
+                <element signature="docComment;method#createBossEnemy#0;class#EnemyGenerator#0" expanded="false" />
                 <element signature="method#createBossEnemy#0;class#EnemyGenerator#0" expanded="false" />
+                <element signature="docComment;method#randomIntInRange#0;class#EnemyGenerator#0" expanded="false" />
                 <element signature="method#randomIntInRange#0;class#EnemyGenerator#0" expanded="false" />
               </folding>
             </state>
@@ -53,14 +53,10 @@
       <file leaf-file-name="FieldGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/meta/gen/FieldGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="92" column="79" lean-forward="false" selection-start-line="92" selection-start-column="79" selection-end-line="92" selection-end-column="79" />
+            <state relative-caret-position="613">
+              <caret line="160" column="2" lean-forward="false" selection-start-line="160" selection-start-column="2" selection-end-line="160" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#createEmptyField#0;class#FieldGenerator#0" expanded="false" />
-                <element signature="method#createField#0;class#FieldGenerator#0" expanded="false" />
-                <element signature="method#createDungeonField#0;class#FieldGenerator#0" expanded="false" />
-                <element signature="method#rand#0;class#FieldGenerator#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,10 +65,16 @@
       <file leaf-file-name="MapCreator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/depr/newVersion/newCreators/MapCreator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+            <state relative-caret-position="133">
+              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="19" selection-end-column="50" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#MapCreator#0" expanded="false" />
+                <element signature="docComment;method#createNewMap#0;class#MapCreator#0" expanded="false" />
+                <element signature="method#createNewMap#0;class#MapCreator#0" expanded="false" />
+                <element signature="docComment;method#createDungeonMap#0;class#MapCreator#0" expanded="false" />
                 <element signature="method#createDungeonMap#0;class#MapCreator#0" expanded="false" />
+                <element signature="docComment;method#randInt#0;class#MapCreator#0" expanded="false" />
                 <element signature="method#randInt#0;class#MapCreator#0" expanded="false" />
               </folding>
             </state>
@@ -82,8 +84,20 @@
       <file leaf-file-name="MapGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/current/meta/gen/MapGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="12" column="93" lean-forward="false" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+            <state relative-caret-position="708">
+              <caret line="131" column="53" lean-forward="false" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dungeon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/current/classes/Dungeon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,25 +106,8 @@
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/meta/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="104" column="8" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
-              <folding>
-                <element signature="method#getLength#0;class#Constants#0" expanded="false" />
-                <element signature="method#asString#0;class#Constants#0" expanded="false" />
-                <element signature="method#getEnumAt#0;class#Constants#0" expanded="false" />
-                <element signature="method#getRandomEnum#0;class#Constants#0" expanded="false" />
-                <element signature="method#truncateDouble#0;class#Constants#0" expanded="false" />
-                <element signature="method#randInt#0;class#Constants#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ToolGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/current/meta/gen/ToolGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state relative-caret-position="380">
+              <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -119,48 +116,22 @@
       <file leaf-file-name="NPC.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/classes/NPC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="19">
               <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#NPC#0" expanded="false" />
-                <element signature="docComment;method#NPC#0;class#NPC#0" expanded="false" />
-                <element signature="method#NPC#0;class#NPC#0" expanded="false" />
-                <element signature="docComment;method#NPC#1;class#NPC#0" expanded="false" />
-                <element signature="method#NPC#1;class#NPC#0" expanded="false" />
-                <element signature="e#2722#2723#0" expanded="false" />
-                <element signature="e#2749#2750#0" expanded="false" />
-                <element signature="e#2780#2781#0" expanded="false" />
-                <element signature="e#2829#2830#0" expanded="false" />
-                <element signature="e#2868#2869#0" expanded="false" />
-                <element signature="e#2901#2902#0" expanded="false" />
-                <element signature="e#2930#2931#0" expanded="false" />
-                <element signature="e#2954#2955#0" expanded="false" />
-                <element signature="e#2995#2996#0" expanded="false" />
-                <element signature="e#3027#3028#0" expanded="false" />
-                <element signature="e#3056#3057#0" expanded="false" />
-                <element signature="e#3079#3080#0" expanded="false" />
-                <element signature="e#3119#3120#0" expanded="false" />
-                <element signature="e#3149#3150#0" expanded="false" />
-                <element signature="e#3187#3188#0" expanded="false" />
-                <element signature="e#3217#3218#0" expanded="false" />
-                <element signature="e#3273#3274#0" expanded="false" />
-                <element signature="e#3317#3318#0" expanded="false" />
-                <element signature="e#3359#3360#0" expanded="false" />
-                <element signature="e#3393#3394#0" expanded="false" />
                 <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
-                <element signature="e#3548#3549#0" expanded="false" />
-                <element signature="e#3579#3580#0" expanded="false" />
-                <element signature="e#3637#3638#0" expanded="false" />
-                <element signature="e#3683#3684#0" expanded="false" />
-                <element signature="e#3722#3723#0" expanded="false" />
-                <element signature="e#3753#3754#0" expanded="false" />
-                <element signature="e#3811#3812#0" expanded="false" />
-                <element signature="e#3857#3858#0" expanded="false" />
-                <element signature="e#3908#3909#0" expanded="false" />
-                <element signature="e#3946#3947#0" expanded="false" />
                 <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToolGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/current/meta/gen/ToolGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="44" column="66" lean-forward="false" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,49 +139,10 @@
       <file leaf-file-name="NPC_Generator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/meta/gen/NPC_Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2223">
-              <caret line="124" column="2" lean-forward="false" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
+            <state relative-caret-position="518">
+              <caret line="122" column="58" lean-forward="false" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#createNPCByCategory#0;class#NPC_Generator#0" expanded="false" />
-                <element signature="method#rand#0;class#NPC_Generator#0" expanded="false" />
-                <element signature="method#main#0;class#NPC_Generator#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeaponGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/current/meta/gen/WeaponGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#createRewardWeapon#0;class#WeaponGenerator#0" expanded="false" />
-                <element signature="method#createRandomWeapon#0;class#WeaponGenerator#0" expanded="false" />
-                <element signature="method#createRestrictedWeapon#0;class#WeaponGenerator#0" expanded="false" />
-                <element signature="method#createStartingWeapon#0;class#WeaponGenerator#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NPCWithItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/current/meta/NPCWithItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-              <folding>
-                <element signature="docComment;class#NPCWithItem#0" expanded="false" />
-                <element signature="docComment;method#NPCWithItem#0;class#NPCWithItem#0" expanded="false" />
-                <element signature="method#NPCWithItem#0;class#NPCWithItem#0" expanded="false" />
-                <element signature="e#665#666#0" expanded="false" />
-                <element signature="e#685#686#0" expanded="false" />
-                <element signature="e#718#719#0" expanded="false" />
-                <element signature="e#742#743#0" expanded="false" />
-                <element signature="e#769#770#0" expanded="false" />
-                <element signature="e#790#791#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -284,15 +216,15 @@
         <option value="$PROJECT_DIR$/src/current/meta/gen/ToolGenerator.java" />
         <option value="$PROJECT_DIR$/src/current/meta/NPCWithItem.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/WeaponGenerator.java" />
-        <option value="$PROJECT_DIR$/src/current/meta/gen/NPC_Generator.java" />
         <option value="$PROJECT_DIR$/src/test/GUI.java" />
         <option value="$PROJECT_DIR$/src/test/TestController.java" />
         <option value="$PROJECT_DIR$/src/test/Start.java" />
         <option value="$PROJECT_DIR$/src/usageExample/Start.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/ConsumableGenerator.java" />
-        <option value="$PROJECT_DIR$/src/current/meta/Constants.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/EnemyGenerator.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/FieldGenerator.java" />
+        <option value="$PROJECT_DIR$/src/current/meta/gen/NPC_Generator.java" />
+        <option value="$PROJECT_DIR$/src/current/meta/Constants.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/MapGenerator.java" />
       </list>
     </option>
@@ -337,6 +269,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -360,98 +295,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonSlayerDANI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonSlayerDANI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="depr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonSlayerDANI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonSlayerDANI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="depr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newVersion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oldCreators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonSlayerDANI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonSlayerDANI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="depr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newVersion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newCreators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonSlayerDANI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DragonSlayerDANI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="depr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="newVersion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,16 +363,17 @@
               <option name="myItemId" value="current" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Groovy" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Transer/Transparenter" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -965,7 +809,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496087595494</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="generators: consumable, enemy, field, map; usage example provided for&#10; later gui implementation">
+      <created>1496093739184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1496093739184</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -982,8 +833,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33480662" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.257329" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -991,22 +841,23 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29010418" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29010418" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1014,7 +865,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33480662" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.257329" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.257329" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1043,7 +894,8 @@
     <MESSAGE value="started improved version after class diagram" />
     <MESSAGE value="updated current version with enemy, abstractMap, field and npc class." />
     <MESSAGE value="dungeon and map classes created, creators for npc, tool and weapon; &#10;npcWithItem class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dungeon and map classes created, creators for npc, tool and weapon; &#10;npcWithItem class added" />
+    <MESSAGE value="generators: consumable, enemy, field, map; usage example provided for&#10; later gui implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="generators: consumable, enemy, field, map; usage example provided for&#10; later gui implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1137,10 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="method#Thing#0;class#Thing#0" expanded="false" />
-            <element signature="method#initVocal#0;class#Thing#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,9 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="method#Character#0;class#Character#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1158,11 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="76" column="31" lean-forward="false" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-          <folding>
-            <element signature="method#Item#0;class#Item#0" expanded="false" />
-            <element signature="method#Item#1;class#Item#0" expanded="false" />
-            <element signature="method#Item#2;class#Item#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,14 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="190" column="5" lean-forward="true" selection-start-line="113" selection-start-column="4" selection-end-line="190" selection-end-column="5" />
-          <folding>
-            <element signature="method#NPC#0;class#NPC#0" expanded="false" />
-            <element signature="method#damageAndCheckIfAlive#0;class#NPC#0" expanded="false" />
-            <element signature="method#randDouble#0;class#NPC#0" expanded="false" />
-            <element signature="method#initiateVocal#0;class#NPC#0" expanded="false" />
-            <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
-            <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,21 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="150" column="2" lean-forward="false" selection-start-line="150" selection-start-column="2" selection-end-line="205" selection-end-column="3" />
-          <folding>
-            <element signature="docComment;method#Field#0;class#Field#0" expanded="false" />
-            <element signature="method#Field#0;class#Field#0" expanded="false" />
-            <element signature="method#Field#1;class#Field#0" expanded="false" />
-            <element signature="method#Field#2;class#Field#0" expanded="false" />
-            <element signature="method#Field#3;class#Field#0" expanded="false" />
-            <element signature="method#Field#4;class#Field#0" expanded="false" />
-            <element signature="method#Field#5;class#Field#0" expanded="false" />
-            <element signature="method#Field#6;class#Field#0" expanded="false" />
-            <element signature="docComment;method#initiateVocal#0;class#Field#0" expanded="false" />
-            <element signature="method#initiateVocal#0;class#Field#0" expanded="false" />
-            <element signature="docComment;method#hasNPC#0;class#Field#0" expanded="false" />
-            <element signature="docComment;method#hasEnemy#0;class#Field#0" expanded="false" />
-            <element signature="docComment;method#hasItem#0;class#Field#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1235,77 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/classes/templates/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="docComment;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
-            <element signature="method#AbstractMap#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#setBoss#0;class#AbstractMap#0" expanded="false" />
-            <element signature="method#setBoss#0;class#AbstractMap#0" expanded="false" />
-            <element signature="docComment;method#isWithinBounds#0;class#AbstractMap#0" expanded="false" />
-            <element signature="method#isWithinBounds#0;class#AbstractMap#0" expanded="false" />
-            <element signature="e#2466#2467#0" expanded="false" />
-            <element signature="e#2489#2490#0" expanded="false" />
-            <element signature="e#2534#2535#0" expanded="false" />
-            <element signature="e#2564#2565#0" expanded="false" />
-            <element signature="e#2596#2597#0" expanded="false" />
-            <element signature="e#2618#2619#0" expanded="false" />
-            <element signature="e#2660#2661#0" expanded="false" />
-            <element signature="e#2688#2689#0" expanded="false" />
-            <element signature="e#2724#2725#0" expanded="false" />
-            <element signature="e#2752#2753#0" expanded="false" />
-            <element signature="e#2805#2806#0" expanded="false" />
-            <element signature="e#2845#2846#0" expanded="false" />
-            <element signature="e#2872#2873#0" expanded="false" />
-            <element signature="e#2894#2895#0" expanded="false" />
-            <element signature="e#2931#2932#0" expanded="false" />
-            <element signature="e#2959#2960#0" expanded="false" />
-            <element signature="e#3000#3001#0" expanded="false" />
-            <element signature="e#3037#3038#0" expanded="false" />
-            <element signature="e#3070#3071#0" expanded="false" />
-            <element signature="e#3098#3099#0" expanded="false" />
-            <element signature="e#3132#3133#0" expanded="false" />
-            <element signature="e#3156#3157#0" expanded="false" />
-            <element signature="e#3202#3203#0" expanded="false" />
-            <element signature="e#3234#3235#0" expanded="false" />
-            <element signature="e#3287#3288#0" expanded="false" />
-            <element signature="e#3330#3331#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/classes/Dungeon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Dungeon#0" expanded="false" />
-            <element signature="docComment;method#Dungeon#0;class#Dungeon#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/classes/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <element signature="docComment;class#Map#0" expanded="false" />
-            <element signature="docComment;method#Map#0;class#Map#0" expanded="false" />
-            <element signature="method#Map#0;class#Map#0" expanded="false" />
-            <element signature="docComment;method#hasDungeon#0;class#Map#0" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#1238#1239#0" expanded="false" />
-            <element signature="e#1283#1284#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1313,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2123">
           <caret line="102" column="38" lean-forward="false" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,11 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="method#Field#0;class#Field#0" expanded="false" />
-            <element signature="method#Field#1;class#Field#0" expanded="false" />
-            <element signature="method#Field#2;class#Field#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1333,35 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="docComment;class#Player#0" expanded="false" />
-            <element signature="docComment;method#Player#0;class#Player#0" expanded="false" />
-            <element signature="method#Player#0;class#Player#0" expanded="false" />
-            <element signature="e#2049#2050#0" expanded="false" />
-            <element signature="e#2069#2070#0" expanded="false" />
-            <element signature="e#2105#2106#0" expanded="false" />
-            <element signature="e#2129#2130#0" expanded="false" />
-            <element signature="e#2161#2162#0" expanded="false" />
-            <element signature="e#2188#2189#0" expanded="false" />
-            <element signature="e#2235#2236#0" expanded="false" />
-            <element signature="e#2273#2274#0" expanded="false" />
-            <element signature="e#2300#2301#0" expanded="false" />
-            <element signature="e#2322#2323#0" expanded="false" />
-            <element signature="e#2359#2360#0" expanded="false" />
-            <element signature="e#2387#2388#0" expanded="false" />
-            <element signature="e#2418#2419#0" expanded="false" />
-            <element signature="e#2444#2445#0" expanded="false" />
-            <element signature="e#2489#2490#0" expanded="false" />
-            <element signature="e#2525#2526#0" expanded="false" />
-            <element signature="e#2557#2558#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2631#2632#0" expanded="false" />
-            <element signature="e#2669#2670#0" expanded="false" />
-            <element signature="e#2708#2709#0" expanded="false" />
-            <element signature="e#2735#2736#0" expanded="false" />
-            <element signature="e#2789#2790#0" expanded="false" />
-            <element signature="e#2827#2828#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1385,9 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="38" column="3" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="38" selection-end-column="3" />
-          <folding>
-            <element signature="method#NPCWithItem#0;class#NPCWithItem#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="62" column="3" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="62" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1403,112 +1110,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="101" column="3" lean-forward="false" selection-start-line="34" selection-start-column="2" selection-end-line="101" selection-end-column="3" />
-          <folding>
-            <element signature="method#createRandomWeapon#0;class#WeaponCreator#0" expanded="true" />
-            <element signature="method#createRestrictedWeapon#0;class#WeaponCreator#0" expanded="true" />
-            <element signature="method#createStartingWeapon#0;class#WeaponCreator#0" expanded="true" />
-            <element signature="method#randomIntInRange#0;class#WeaponCreator#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/meta/NPCWithItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="190">
           <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding>
-            <element signature="docComment;class#NPCWithItem#0" expanded="false" />
-            <element signature="docComment;method#NPCWithItem#0;class#NPCWithItem#0" expanded="false" />
-            <element signature="method#NPCWithItem#0;class#NPCWithItem#0" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#685#686#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/meta/gen/WeaponGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
+        <state relative-caret-position="608">
           <caret line="85" column="14" lean-forward="false" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#WeaponGenerator#0" expanded="false" />
+            <element signature="docComment;method#createRewardWeapon#0;class#WeaponGenerator#0" expanded="false" />
             <element signature="method#createRewardWeapon#0;class#WeaponGenerator#0" expanded="false" />
+            <element signature="docComment;method#createRandomWeapon#0;class#WeaponGenerator#0" expanded="false" />
             <element signature="method#createRandomWeapon#0;class#WeaponGenerator#0" expanded="false" />
+            <element signature="docComment;method#createRestrictedWeapon#0;class#WeaponGenerator#0" expanded="false" />
             <element signature="method#createRestrictedWeapon#0;class#WeaponGenerator#0" expanded="false" />
+            <element signature="docComment;method#createStartingWeapon#0;class#WeaponGenerator#0" expanded="false" />
             <element signature="method#createStartingWeapon#0;class#WeaponGenerator#0" expanded="false" />
+            <element signature="docComment;method#randomIntInRange#0;class#WeaponGenerator#0" expanded="false" />
+            <element signature="method#randomIntInRange#0;class#WeaponGenerator#0" expanded="false" />
+            <element signature="docComment;method#randInt#0;class#WeaponGenerator#0" expanded="false" />
+            <element signature="method#randInt#0;class#WeaponGenerator#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/classes/NPC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#NPC#0" expanded="false" />
-            <element signature="docComment;method#NPC#0;class#NPC#0" expanded="false" />
-            <element signature="method#NPC#0;class#NPC#0" expanded="false" />
-            <element signature="docComment;method#NPC#1;class#NPC#0" expanded="false" />
-            <element signature="method#NPC#1;class#NPC#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
-            <element signature="e#2749#2750#0" expanded="false" />
-            <element signature="e#2780#2781#0" expanded="false" />
-            <element signature="e#2829#2830#0" expanded="false" />
-            <element signature="e#2868#2869#0" expanded="false" />
-            <element signature="e#2901#2902#0" expanded="false" />
-            <element signature="e#2930#2931#0" expanded="false" />
-            <element signature="e#2954#2955#0" expanded="false" />
-            <element signature="e#2995#2996#0" expanded="false" />
-            <element signature="e#3027#3028#0" expanded="false" />
-            <element signature="e#3056#3057#0" expanded="false" />
-            <element signature="e#3079#3080#0" expanded="false" />
-            <element signature="e#3119#3120#0" expanded="false" />
-            <element signature="e#3149#3150#0" expanded="false" />
-            <element signature="e#3187#3188#0" expanded="false" />
-            <element signature="e#3217#3218#0" expanded="false" />
-            <element signature="e#3273#3274#0" expanded="false" />
-            <element signature="e#3317#3318#0" expanded="false" />
-            <element signature="e#3359#3360#0" expanded="false" />
-            <element signature="e#3393#3394#0" expanded="false" />
-            <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
-            <element signature="e#3548#3549#0" expanded="false" />
-            <element signature="e#3579#3580#0" expanded="false" />
-            <element signature="e#3637#3638#0" expanded="false" />
-            <element signature="e#3683#3684#0" expanded="false" />
-            <element signature="e#3722#3723#0" expanded="false" />
-            <element signature="e#3753#3754#0" expanded="false" />
-            <element signature="e#3811#3812#0" expanded="false" />
-            <element signature="e#3857#3858#0" expanded="false" />
-            <element signature="e#3908#3909#0" expanded="false" />
-            <element signature="e#3946#3947#0" expanded="false" />
-            <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/meta/gen/NPC_Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2223">
-          <caret line="124" column="2" lean-forward="false" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createNPCByCategory#0;class#NPC_Generator#0" expanded="false" />
-            <element signature="method#rand#0;class#NPC_Generator#0" expanded="false" />
-            <element signature="method#main#0;class#NPC_Generator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/meta/gen/ToolGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1516,14 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-          <folding>
-            <element signature="method#GUI#0;class#GUI#0" expanded="false" />
-            <element signature="method#append#0;class#GUI#0" expanded="false" />
-            <element signature="method#main#0;class#GUI#0" expanded="false" />
-            <element signature="class#2137:2224" expanded="true" />
-            <element signature="e#2190#2191#0" expanded="true" />
-            <element signature="e#2217#2218#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1531,9 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1541,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="61" column="3" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="61" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1558,7 +1176,7 @@
         <state relative-caret-position="304">
           <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <element signature="method#createConsumable#0;class#ConsumableGenerator#0" expanded="false" />
             <element signature="method#randomIntInRange#0;class#ConsumableGenerator#0" expanded="false" />
           </folding>
@@ -1575,13 +1193,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/meta/gen/EnemyGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="133">
           <caret line="37" column="64" lean-forward="false" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#EnemyGenerator#0" expanded="false" />
+            <element signature="docComment;method#createEnemy#0;class#EnemyGenerator#0" expanded="false" />
             <element signature="method#createEnemy#0;class#EnemyGenerator#0" expanded="false" />
+            <element signature="docComment;method#min#0;class#EnemyGenerator#0" expanded="false" />
             <element signature="method#min#0;class#EnemyGenerator#0" expanded="false" />
+            <element signature="docComment;method#createBossEnemy#0;class#EnemyGenerator#0" expanded="false" />
             <element signature="method#createBossEnemy#0;class#EnemyGenerator#0" expanded="false" />
+            <element signature="docComment;method#randomIntInRange#0;class#EnemyGenerator#0" expanded="false" />
             <element signature="method#randomIntInRange#0;class#EnemyGenerator#0" expanded="false" />
           </folding>
         </state>
@@ -1591,55 +1213,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/templates/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/newCreators/MapCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#MapCreator#0" expanded="false" />
+            <element signature="docComment;method#createNewMap#0;class#MapCreator#0" expanded="false" />
+            <element signature="method#createNewMap#0;class#MapCreator#0" expanded="false" />
+            <element signature="docComment;method#createDungeonMap#0;class#MapCreator#0" expanded="false" />
+            <element signature="method#createDungeonMap#0;class#MapCreator#0" expanded="false" />
+            <element signature="docComment;method#randInt#0;class#MapCreator#0" expanded="false" />
+            <element signature="method#randInt#0;class#MapCreator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/meta/gen/ToolGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="44" column="66" lean-forward="false" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/NPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="method#setQuestNotCompleted#0;class#NPC#0" expanded="false" />
+            <element signature="method#setIsQuestCompleted#0;class#NPC#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/Dungeon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/meta/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="104" column="8" lean-forward="false" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
-          <folding>
-            <element signature="method#getLength#0;class#Constants#0" expanded="false" />
-            <element signature="method#asString#0;class#Constants#0" expanded="false" />
-            <element signature="method#getEnumAt#0;class#Constants#0" expanded="false" />
-            <element signature="method#getRandomEnum#0;class#Constants#0" expanded="false" />
-            <element signature="method#truncateDouble#0;class#Constants#0" expanded="false" />
-            <element signature="method#randInt#0;class#Constants#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/meta/gen/FieldGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="92" column="79" lean-forward="false" selection-start-line="92" selection-start-column="79" selection-end-line="92" selection-end-column="79" />
+        <state relative-caret-position="613">
+          <caret line="160" column="2" lean-forward="false" selection-start-line="160" selection-start-column="2" selection-end-line="160" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#createEmptyField#0;class#FieldGenerator#0" expanded="false" />
-            <element signature="method#createField#0;class#FieldGenerator#0" expanded="false" />
-            <element signature="method#createDungeonField#0;class#FieldGenerator#0" expanded="false" />
-            <element signature="method#rand#0;class#FieldGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/newCreators/MapCreator.java">
+    <entry file="file://$PROJECT_DIR$/src/current/meta/gen/NPC_Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="518">
+          <caret line="122" column="58" lean-forward="false" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
           <folding>
-            <element signature="method#createDungeonMap#0;class#MapCreator#0" expanded="false" />
-            <element signature="method#randInt#0;class#MapCreator#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/current/meta/gen/MapGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" column="93" lean-forward="false" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
-          <folding />
+        <state relative-caret-position="708">
+          <caret line="131" column="53" lean-forward="false" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

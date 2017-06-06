@@ -120,7 +120,7 @@ public class NPC_Generator {
   private static final String ATTACK_RESP_0 = "Oh man, haven't beaten someone in a "
       + "long time! Let's dance!";
 
-  // TODO fix non matching npc class and generator.
+  // TODO fix non matching npc class and generator. CHECK IF FIXED!?
 
   /**
    * method to create an NPC with a corresponding quest item.
