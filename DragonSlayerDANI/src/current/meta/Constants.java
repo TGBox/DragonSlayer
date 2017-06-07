@@ -25,7 +25,7 @@ public class Constants {
    *  ranges from 20 to 30
    *
    *  questID:
-   *  ranges from 100 to 200 (ranges freaky!) // TODO change that!
+   *  ranges from 100 to 200 by three each time. reward items get ID + 1 of questId.
    *
    *  dungeonID:
    *  matches corresponding mapID
@@ -152,7 +152,7 @@ public class Constants {
    * @param nameOfEnum String name of the enumeration.
    * @return int length of the array, or -1 if incorrect String was given.
    */
-  public static int getLength(String nameOfEnum){
+  public static int getLength(String nameOfEnum) {
     switch (nameOfEnum) {
       case "DragonNames":
         return DragonNames.values().length;

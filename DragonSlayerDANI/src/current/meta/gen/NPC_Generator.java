@@ -120,30 +120,26 @@ public class NPC_Generator {
   private static final String ATTACK_RESP_0 = "Oh man, haven't beaten someone in a "
       + "long time! Let's dance!";
 
-  // TODO fix non matching npc class and generator. CHECK IF FIXED!?
-
   /**
    * method to create an NPC with a corresponding quest item.
    * both should be placed on the same map to ensure that the quest will be solvable.
    *
    * @param category int to determine the category of npc. should be one of the predefined values.
-   * @param mapID int mapID.
-   * @param npcNrOnMap int number of the npc on the current map to set correct tool and questIDs.
+   * @param questID int ID to identify the single quest items. reward itemID is questID + 1.
    * @return the NPCWithItem object.
    */
-  public static NPCWithItem createNPCByCategory(int category, int mapID, int npcNrOnMap) {
+  public static NPCWithItem createNPCByCategory(int category, int questID) {
     switch (category) {
       case CATEGORY_0:
         Item weapon0 = new Item(WEAPON_NAME_0, ATTACK_0, ACC_0);
-        int toolID0 = (mapID * 100) + (npcNrOnMap * 10);
-        Item questItem0 = new Item(LOST_ITEM_0, DESCRIPTION_0, toolID0);
+        Item questItem0 = new Item(LOST_ITEM_0, DESCRIPTION_0, questID);
         Item reward0 = new Item("420 cannon", 420, 42.0);
         String[] sentences0 = new String[4];
         sentences0[0] = MEET_0;
         sentences0[1] = Q_N_C_0;
         sentences0[2] = Q_C_0;
         sentences0[3] = ATTACK_RESP_0;
-        NPC npc0 = new NPC(NPC_0, HEALTH_0, weapon0, DEFAULT_POSITION, toolID0, reward0,
+        NPC npc0 = new NPC(NPC_0, HEALTH_0, weapon0, DEFAULT_POSITION, questID, reward0,
             sentences0);
         return new NPCWithItem(npc0, questItem0);
       case CATEGORY_1:
@@ -157,8 +153,7 @@ public class NPC_Generator {
         String name = PREFIXES[preIndex] + NPC_NAMES_1[generalIndex];
         String item = LOST_ITEMS_1[generalIndex];
         String description = ITEM_DESCRIPTIONS_1[generalIndex];
-        int toolID = (mapID * 100) + (npcNrOnMap * 10);
-        Item questItem = new Item(item, description, toolID);
+        Item questItem = new Item(item, description, questID);
         String[] sentences = new String[4];
         sentences[0] = MEET_MSG_1_A[rand(0, MEET_MSG_1_A.length - 1)] + name;
         sentences[0] += MEET_MSG_1_B[rand(0, MEET_MSG_1_B.length - 1)] + item;
@@ -176,21 +171,20 @@ public class NPC_Generator {
             reward = WeaponGenerator.createRewardWeapon();
             break;
           case 1:     // xp booster.
-            reward = ToolGenerator.createXPBooster(health, toolID + 1);
+            reward = ToolGenerator.createXPBooster(health, questID + 1);
             break;
           case 2:     // health booster.
             reward = ToolGenerator.createMaxHealthBooster(health / 2,
-                toolID + 1);
+                questID + 1);
             break;
           case 3:     // accuracy booster.
-            reward = ToolGenerator.createAccuracyBooster(rand(10, 20),
-                toolID + 1);
+            reward = ToolGenerator.createAccuracyBooster(rand(10, 20), questID + 1);
             break;
           default:    // weapon
             reward = WeaponGenerator.createRewardWeapon();
             break;
         }
-        NPC npc = new NPC(name, health, weapon, DEFAULT_POSITION, toolID, reward, sentences);
+        NPC npc = new NPC(name, health, weapon, DEFAULT_POSITION, questID, reward, sentences);
         return new NPCWithItem(npc, questItem);
       case CATEGORY_2:
         int genIndex = rand(0, NPC_NAMES_2.length - 1);
@@ -202,8 +196,7 @@ public class NPC_Generator {
         String name2 = NPC_NAMES_2[genIndex];
         String item2 = NPC_ITEMS_2[genIndex];
         String description2 = ITEM_DESCRIPTIONS_2[genIndex];
-        int toolID2 = (mapID * 100) + (npcNrOnMap * 10);
-        Item questItem2 = new Item(item2, description2, toolID2);
+        Item questItem2 = new Item(item2, description2, questID);
         // order: meetMsg, notCompl, compl, attackResp;
         String[] sentences2 = new String[4];
         sentences2[0] = MEET_MSG_2_A[rand(0, MEET_MSG_2_A.length - 1)] + name2;
@@ -221,33 +214,32 @@ public class NPC_Generator {
             reward2 = WeaponGenerator.createRewardWeapon();
             break;
           case 1:     // xp booster.
-            reward2 = ToolGenerator.createXPBooster(health2, toolID2 + 1);
+            reward2 = ToolGenerator.createXPBooster(health2, questID + 1);
             break;
           case 2:     // health booster.
             reward2 = ToolGenerator.createMaxHealthBooster(health2 / 2,
-                toolID2 + 1);
+                questID + 1);
             break;
           case 3:     // accuracy booster.
             reward2 = ToolGenerator.createAccuracyBooster(rand(10, 20),
-                toolID2 + 1);
+                questID + 1);
             break;
           default:    // weapon
             reward2 = WeaponGenerator.createRewardWeapon();
             break;
         }
-        NPC npc2 = new NPC(name2, health2, weapon2, DEFAULT_POSITION, toolID2, reward2, sentences2);
+        NPC npc2 = new NPC(name2, health2, weapon2, DEFAULT_POSITION, questID, reward2, sentences2);
         return new NPCWithItem(npc2, questItem2);
       default:    // I'm default.
         weapon0 = new Item(WEAPON_NAME_0, ATTACK_0, ACC_0);
-        toolID0 = (mapID * 100) + (npcNrOnMap * 10);
-        questItem0 = new Item(LOST_ITEM_0, DESCRIPTION_0, toolID0);
+        questItem0 = new Item(LOST_ITEM_0, DESCRIPTION_0, questID);
         reward0 = new Item("420 cannon", 420, 42.0);
         sentences0 = new String[4];
         sentences0[0] = MEET_0;
         sentences0[1] = Q_N_C_0;
         sentences0[2] = Q_C_0;
         sentences0[3] = ATTACK_RESP_0;
-        npc0 = new NPC(NPC_0, HEALTH_0, weapon0, DEFAULT_POSITION, toolID0, reward0, sentences0);
+        npc0 = new NPC(NPC_0, HEALTH_0, weapon0, DEFAULT_POSITION, questID, reward0, sentences0);
         return new NPCWithItem(npc0, questItem0);
     }
   }

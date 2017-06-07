@@ -43,7 +43,7 @@ public class MapGenerator {
    * @param diff Difficulty of the game.
    * @return the newly created map.
    */
-  public Map createNewMap(int mapID, int playerLvl, boolean hasDungeon, Difficulty diff){
+  public static Map createNewMap(int mapID, int playerLvl, boolean hasDungeon, Difficulty diff) {
     // Random width and height in specified range. 5x5 - 7x7
     int width = randInt(MAP_MIN_WIDTH, MAP_MAX_WIDTH);
     int height = randInt(MAP_MIN_HEIGHT, MAP_MAX_HEIGHT);
@@ -52,10 +52,10 @@ public class MapGenerator {
     int nrOfTools;
     // Calculating the number of tools and NPCs on the map.
     int nrFields = width * height;
-    if(nrFields == 25){
+    if (nrFields == 25) {
       nrOfNPCs = 0;
       nrOfTools = 1;
-    } else if(nrFields > 25 && nrFields < 40){
+    } else if (nrFields > 25 && nrFields < 40) {
       nrOfNPCs = 1;
       nrOfTools = 2;
     } else {
@@ -64,17 +64,19 @@ public class MapGenerator {
     }
 
     // Iterating over the fields array to initialize it.
-    // TODO add some adjustments so that NPCs and tools get placed on the maps as well.
     for (int y = 0; y < height; y++) {
       for (int x = 0; x < width; x++) {
         fields[x][y] = createField(mapID, playerLvl, randInt(ENEMY, EMPTY));
       }
     }
 
-    Position startPos = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
-    Position bossPos = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
-    while (startPos.equals(bossPos)){
-      bossPos = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
+    // Check that boss and start position are different.
+    Position startPos = new Position(randInt(0, fields.length - 1),
+        randInt(0, fields[0].length - 1));
+    Position bossPos = new Position(randInt(0, fields.length - 1),
+        randInt(0, fields[0].length - 1));
+    while (startPos.equals(bossPos)) {
+      bossPos = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
     }
     fields[bossPos.x][bossPos.y] = createBossField(mapID, playerLvl, diff);
 
@@ -83,13 +85,14 @@ public class MapGenerator {
     Item tool;
     int toolID = 20;
     int npcID = 100;
-    Position[] positions = new Position[nrOfNPCs + nrOfTools];
+    // Array to hold all positions for npcs, items and tools on the map.
+    Position[] positions = new Position[(nrOfNPCs * 2) + nrOfTools];
     int index = 0;
     Position current;
-    int npcCount = 1;
-    while (nrOfNPCs + nrOfTools > 0){
-      if(nrOfNPCs == 0){
-        switch (randInt(0, 2)){
+    while (nrOfNPCs + nrOfTools > 0) {
+      if (nrOfNPCs == 0) {
+        // Switch case to decide which booster will be placed.
+        switch (randInt(0, 2)) {
           case 0:
             tool = ToolGenerator.createAccuracyBooster(randInt(5, 15), toolID);
             break;
@@ -100,48 +103,131 @@ public class MapGenerator {
             tool = ToolGenerator.createXPBooster(randInt(50, 100), toolID);
             break;
         }
-        current = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
-        while (current.equals(bossPos) || current.equals(startPos)){
-          current = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
+        current = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
+        while (current.equals(bossPos) || current.equals(startPos)) {
+          current = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
+          if (index > 0) {
+            for (int i = index - 1; i > 0; i--) {
+              while (current.equals(positions[i])) {
+                current = new Position(randInt(0, fields.length - 1),
+                    randInt(0, fields[0].length - 1));
+                i = index - 1;
+              }
+            }
+          }
         }
+
         positions[index] = current;
         index++;
         fields[current.x][current.y].setItem(tool);
         toolID++;
         nrOfTools--;
-      } else if(nrOfTools == 0){
-        switch (randInt(0, 2)){
+      } else if (nrOfTools == 0) {
+        switch (randInt(0, 2)) {
           case 0:
-            nwi = NPC_Generator.createNPCByCategory(0, mapID, npcCount);
+            nwi = NPC_Generator.createNPCByCategory(0, npcID);
             break;
           case 1:
-            nwi = NPC_Generator.createNPCByCategory(1, mapID, npcCount);
+            nwi = NPC_Generator.createNPCByCategory(1, npcID);
             break;
           default:  // case 2:
-            nwi = NPC_Generator.createNPCByCategory(2, mapID, npcCount);
+            nwi = NPC_Generator.createNPCByCategory(2, npcID);
             break;
         }
-        npcCount++;
-        Position itemPos = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
+        npcID += 3;
+        Position itemPos = new Position(randInt(0, fields.length - 1),
+            randInt(0, fields[0].length - 1));
         current = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
-        while(itemPos.equals(current) || itemPos.equals(startPos) || itemPos.equals(bossPos) ||
-            current.equals(startPos) || current.equals(bossPos)){
-          itemPos = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
-          current = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
+        // Check that fields do not overlap.
+        while (itemPos.equals(current) || itemPos.equals(startPos) || itemPos.equals(bossPos) ||
+            current.equals(startPos) || current.equals(bossPos)) {
+          itemPos = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
+          current = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
         }
-        // TODO end this else block and the next one.
-
+        positions[index] = current;
+        index++;
         nrOfNPCs--;
+        fields[current.x][current.y].setNpc(nwi.getNpc());
+        fields[itemPos.x][itemPos.y].setItem(nwi.getItem());
       } else {  // if none are zero.
+        if (ThreadLocalRandom.current().nextBoolean()) {
+          switch (randInt(0, 2)) {
+            case 0:
+              nwi = NPC_Generator.createNPCByCategory(0, npcID);
+              break;
+            case 1:
+              nwi = NPC_Generator.createNPCByCategory(1, npcID);
+              break;
+            default:  // case 2:
+              nwi = NPC_Generator.createNPCByCategory(2, npcID);
+              break;
+          }
+          npcID += 3;
+          Position itemPos = new Position(randInt(0, fields.length - 1),
+              randInt(0, fields[0].length - 1));
+          current = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
+          // Check that fields do not overlap.
+          while (itemPos.equals(current) || itemPos.equals(startPos) || itemPos.equals(bossPos) ||
+              current.equals(startPos) || current.equals(bossPos)) {
+            itemPos = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
+            current = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
+          }
+          positions[index] = current;
+          index++;
+          nrOfNPCs--;
+          fields[current.x][current.y].setNpc(nwi.getNpc());
+          fields[itemPos.x][itemPos.y].setItem(nwi.getItem());
+        } else {
+          // Switch case to decide which booster will be placed.
+          switch (randInt(0, 2)) {
+            case 0:
+              tool = ToolGenerator.createAccuracyBooster(randInt(5, 15), toolID);
+              break;
+            case 1:
+              tool = ToolGenerator.createMaxHealthBooster(randInt(10, 50), toolID);
+              break;
+            default:  // case 2:
+              tool = ToolGenerator.createXPBooster(randInt(50, 100), toolID);
+              break;
+          }
+          current = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
+          while (current.equals(bossPos) || current.equals(startPos)) {
+            current = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
+            if (index > 0) {
+              for (int i = index - 1; i > 0; i--) {
+                while (current.equals(positions[i])) {
+                  current = new Position(randInt(0, fields.length - 1),
+                      randInt(0, fields[0].length - 1));
+                  i = index - 1;
+                }
+              }
+            }
+          }
 
+          positions[index] = current;
+          index++;
+          fields[current.x][current.y].setItem(tool);
+          toolID++;
+          nrOfTools--;
+        }
       }
     }
 
-    if(hasDungeon){
+    // If the map has a dungeon, we create this object as well.
+    if (hasDungeon) {
       Dungeon dungeon = createNewDungeon(mapID, playerLvl);
-      Position dungeonPos = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
-      while (dungeonPos.equals(startPos) || dungeonPos.equals(bossPos)){
-        dungeonPos = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
+      Position dungeonPos = new Position(randInt(0, fields.length - 1),
+          randInt(0, fields[0].length - 1));
+      // Check against boss position, start position and all other given positions on the map.
+      while (dungeonPos.equals(startPos) || dungeonPos.equals(bossPos)) {
+        dungeonPos = new Position(randInt(0, fields.length - 1), randInt(0, fields[0].length - 1));
+        for (int i = positions.length - 1; i > 0; i--) {
+          while (dungeonPos.equals(positions[i])) {
+            dungeonPos = new Position(randInt(0, fields.length - 1),
+                randInt(0, fields[0].length - 1));
+            i = positions.length - 1;
+          }
+        }
       }
       return new Map(fields, startPos, mapID, playerLvl, dungeon);
     } else {
@@ -156,16 +242,18 @@ public class MapGenerator {
    * @param playerLvl int level of the player when the dungeon is created.
    * @return the new Dungeon.
    */
-  public Dungeon createNewDungeon(int mapID, int playerLvl){
+  private static Dungeon createNewDungeon(int mapID, int playerLvl) {
     // Creating the fields for the dungeon.
-    Field[][] fields = new Field[randInt(DUNGEON_MIN_WIDTH, DUNGEON_MAX_WIDTH)][randInt(DUNGEON_MIN_HEIGHT, DUNGEON_MAX_HEIGHT)];
+    Field[][] fields = new Field[randInt(DUNGEON_MIN_WIDTH, DUNGEON_MAX_WIDTH)][randInt(
+        DUNGEON_MIN_HEIGHT, DUNGEON_MAX_HEIGHT)];
     for (int y = 0; y < fields[0].length; y++) {
       for (int x = 0; x < fields.length; x++) {
         fields[x][y] = createDungeonField(mapID, playerLvl, randInt(ENEMY, EMPTY));
       }
     }
     // Creating the starting position.
-    Position portalPos = new Position(randInt(0, fields.length), randInt(0, fields[0].length));
+    Position portalPos = new Position(randInt(0, fields.length - 1),
+        randInt(0, fields[0].length - 1));
     fields[portalPos.x][portalPos.y] = createDungeonExit(mapID);
     return new Dungeon(fields, portalPos, mapID, playerLvl);
   }

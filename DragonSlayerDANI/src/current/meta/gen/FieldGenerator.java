@@ -112,7 +112,7 @@ public class FieldGenerator {
         }
         field = new Field(asString(
             DungeonFieldNames.values()[rand(0, DungeonFieldNames.values().length - 2)]), null,
-          item, mapID);
+            item, mapID);
         return field;
       case ENEMY_AND_ITEM:
         if (ThreadLocalRandom.current().nextBoolean()) {
@@ -144,7 +144,7 @@ public class FieldGenerator {
    * @param mapID int mapID.
    * @return the Field.
    */
-  public static Field createDungeonExit(int mapID){
+  public static Field createDungeonExit(int mapID) {
     return new Field("field with an exit to the dungeon", mapID, mapID);
   }
 
@@ -154,7 +154,7 @@ public class FieldGenerator {
    * @param mapID int mapID.
    * @return the new Field.
    */
-  public static Field createDungeonEntrance(int mapID){
+  public static Field createDungeonEntrance(int mapID) {
     return new Field("field with an entrance to a dungeon", mapID, mapID);
   }
 
@@ -166,7 +166,7 @@ public class FieldGenerator {
    * @param difficulty Difficulty of the game.
    * @return the field that contains the boss.
    */
-  public static Field createBossField(int mapID, int levelOfPlayer, Difficulty difficulty){
+  public static Field createBossField(int mapID, int levelOfPlayer, Difficulty difficulty) {
     Enemy boss = EnemyGenerator.createBossEnemy(difficulty, levelOfPlayer, mapID);
     Item item = new Item("dragon's healing potion", 150);
     return new Field(Constants.asString(SpecialFieldNames.burned_ground), boss, item, mapID);

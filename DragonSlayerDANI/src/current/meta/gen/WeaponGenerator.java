@@ -58,6 +58,7 @@ public class WeaponGenerator {
   }
 
   // Other weapon Stuff.
+
   /**
    * method to create a totally random weapon. might be heavily over- or underpowered.
    *

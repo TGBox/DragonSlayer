@@ -21,12 +21,12 @@ import javax.swing.border.BevelBorder;
  * For "DragonSlayerDANI",
  * on 29.05.2017, 21:54.
  */
-public class GUI extends JFrame{
+public class GUI extends JFrame {
 
   private JTextArea textArea;
   private JTextField textField;
 
-  public GUI(){
+  public GUI() {
     super("Testing GUI");
     setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     setLayout(new BorderLayout(10, 10));
@@ -55,8 +55,8 @@ public class GUI extends JFrame{
     this.textField = textField;
   }
 
-  public void append(String text){
-    if(this.textArea.getText().equals("")){
+  public void append(String text) {
+    if (this.textArea.getText().equals("")) {
       this.textArea.setText(text);
     } else {
       this.textArea.setText(this.textArea.getText() + "\n" + text);
