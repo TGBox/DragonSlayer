@@ -38,6 +38,10 @@ public class Constants {
     Baby, Novice, Warrior, God
   }
 
+  public enum UserNames {
+    Dickie_Fingers, Winky_Ding_Dong, Gaylord, I_have_a_small_dick, Too_cool_for_a_real_name
+  }
+
   public enum DragonNames {
     Smaug, Drogon, Igneel, Porunga, Shenlong, Mushu, Predaking, Tabaluga,
     Toothless, Alduin, Kalameet, Paarthurnax, Spyro
@@ -145,6 +149,12 @@ public class Constants {
   public static final int MAP_MIN_HEIGHT = 5;
   public static final int MAP_MAX_WIDTH = 7;
   public static final int MAP_MAX_HEIGHT = 7;
+
+  // Player constants.
+  public static final int HEALTH_BABY = 150;
+  public static final int HEALTH_NOVICE = 115;
+  public static final int HEALTH_WARRIOR = 80;
+  public static final int HEALTH_GOD = 60;
 
   /**
    * method to get the amount of elements in one specific enum group.

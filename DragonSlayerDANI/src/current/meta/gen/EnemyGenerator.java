@@ -66,21 +66,6 @@ public class EnemyGenerator {
   }
 
   /**
-   * method to compare two int value to find the smaller one.
-   *
-   * @param a int a.
-   * @param b int b.
-   * @return the smaller int. returns a if equal.
-   */
-  private static int min(int a, int b) {
-    if (a <= b) {
-      return a;
-    } else {
-      return b;
-    }
-  }
-
-  /**
    * method to create a new boss enemy for the current map.
    * uses different values to calculate the bosses weapon and health.
    *

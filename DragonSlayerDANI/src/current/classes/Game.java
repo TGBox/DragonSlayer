@@ -38,6 +38,13 @@ public class Game {
   }
 
   /**
+   * method to let the game advance to the next level.
+   */
+  public void advanceOneLevel() {
+    initiateCurrentMap();
+  }
+
+  /**
    * method to initiate the current map.
    */
   private void initiateCurrentMap() {
@@ -45,6 +52,15 @@ public class Game {
     this.maps[this.index - 1] = createNewMap(this.index, this.player.getLevel(), dungeon,
         this.difficulty);
     this.index++;
+  }
+
+  /**
+   * method to return the current map object.
+   *
+   * @return the current map.
+   */
+  public Map getMap() {
+    return maps[index - 1];
   }
 
   // Getter and setter methods.
@@ -70,5 +86,13 @@ public class Game {
 
   public void setMaps(Map[] maps) {
     this.maps = maps;
+  }
+
+  public int getIndex() {
+    return index;
+  }
+
+  public void setIndex(int index) {
+    this.index = index;
   }
 }

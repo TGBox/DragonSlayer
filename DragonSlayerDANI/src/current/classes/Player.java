@@ -19,6 +19,7 @@ public class Player extends Character {
   private static final int DEFAULT_BAG_COUNT = 0;
   private static final int DEFAULT_KILL_COUNT = 0;
   private static final int DEFAULT_EXPERIENCE = 0;
+  private static final Position DEFAULT_POSITION = new Position(0, 0);
 
   // Difficulty dependent values.
   private static final int BAG_SIZE_BABY = 5;
@@ -40,11 +41,10 @@ public class Player extends Character {
    * @param name the String name of the player.
    * @param health int health.
    * @param weapon Item weapon for the player.
-   * @param pos Position on the field.
    * @param difficulty user selected Difficulty.
    */
-  public Player(String name, int health, Item weapon, Position pos, Difficulty difficulty) {
-    super(name, health, weapon, pos);
+  public Player(String name, int health, Item weapon, Difficulty difficulty) {
+    super(name, health, weapon, DEFAULT_POSITION);
     this.level = DEFAULT_STARTING_LEVEL;
     this.bagCounter = DEFAULT_BAG_COUNT;
     this.killCount = DEFAULT_KILL_COUNT;
