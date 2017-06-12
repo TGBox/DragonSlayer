@@ -39,6 +39,8 @@ public class MainGUI extends JFrame implements ActionListener {
   private static final int HEIGHT = 500;
   private static final int GAP = 10;
 
+  // TODO create another use item button for the fight panel with specialized bag handling in fight
+
   private JPanel textPanel, rightPanel, bottomPanel, walkPanel, fightPanel, bagPanel, metaPanel;
   private JPanel walkTopPanel, walkBottomPanel;
   private JTextArea outputArea;
@@ -46,7 +48,8 @@ public class MainGUI extends JFrame implements ActionListener {
   private JButton upButton, downButton, leftButton, rightButton, findButton, fightButton,
       runButton, openBagButton, useItemButton, deleteItemButton, mapButton, statusButton,
       helpButton, manualButton;
-  private BufferedImage upImg, downImg, leftImg, rightImg;
+  private BufferedImage upImg, downImg, leftImg, rightImg, findImg, fightImg, runImg, openBagImg,
+      useItemImg, deleteItemImg, mapImg, statusImg, helpImg, manualImg;
   private boolean imagesAvailable;
 
   /**
@@ -73,12 +76,22 @@ public class MainGUI extends JFrame implements ActionListener {
    *
    * @return boolean true if all images were loaded correctly, false on IOException.
    */
-  private boolean loadImages(){
+  private boolean loadImages() {
     try {
       upImg = ImageIO.read(new File(IMAGE_PATH + "up.png"));
       downImg = ImageIO.read(new File(IMAGE_PATH + "down.png"));
       leftImg = ImageIO.read(new File(IMAGE_PATH + "left.png"));
       rightImg = ImageIO.read(new File(IMAGE_PATH + "right.png"));
+      fightImg = ImageIO.read(new File(IMAGE_PATH + "fight.png"));
+      findImg = ImageIO.read(new File(IMAGE_PATH + "find.png"));
+      runImg = ImageIO.read(new File(IMAGE_PATH + "run.png"));
+      openBagImg = ImageIO.read(new File(IMAGE_PATH + "bag.png"));
+      useItemImg = ImageIO.read(new File(IMAGE_PATH + "use.png"));
+      deleteItemImg = ImageIO.read(new File(IMAGE_PATH + "delete.png"));
+      mapImg = ImageIO.read(new File(IMAGE_PATH + "map.png"));
+      statusImg = ImageIO.read(new File(IMAGE_PATH + "status.png"));
+      helpImg = ImageIO.read(new File(IMAGE_PATH + "help.png"));
+      manualImg = ImageIO.read(new File(IMAGE_PATH + "manual.png"));
       return true;
     } catch (IOException e) {
       e.printStackTrace();
@@ -106,27 +119,38 @@ public class MainGUI extends JFrame implements ActionListener {
     outPane = new JScrollPane(outputArea, ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS,
         ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
     // Image buttons.
-    if(this.imagesAvailable){
+    if (this.imagesAvailable) {
       upButton = new JButton(new ImageIcon(upImg));
       downButton = new JButton(new ImageIcon(downImg));
       leftButton = new JButton(new ImageIcon(leftImg));
       rightButton = new JButton(new ImageIcon(rightImg));
+      findButton = new JButton(new ImageIcon(findImg));
+      fightButton = new JButton(new ImageIcon(fightImg));
+      runButton = new JButton(new ImageIcon(runImg));
+      openBagButton = new JButton(new ImageIcon(openBagImg));
+      useItemButton = new JButton(new ImageIcon(useItemImg));
+      deleteItemButton = new JButton(new ImageIcon(deleteItemImg));
+      mapButton = new JButton(new ImageIcon(mapImg));
+      statusButton = new JButton(new ImageIcon(statusImg));
+      helpButton = new JButton(new ImageIcon(helpImg));
+      manualButton = new JButton(new ImageIcon(manualImg));
     } else {
       upButton = new JButton("North");
       downButton = new JButton("South");
       leftButton = new JButton("West");
       rightButton = new JButton("East");
+      findButton = new JButton("Find");
+      fightButton = new JButton("Fight");
+      runButton = new JButton("Run");
+      openBagButton = new JButton("Open Bag");
+      useItemButton = new JButton("Use Item");
+      deleteItemButton = new JButton("Delete Item");
+      mapButton = new JButton("Show map");
+      statusButton = new JButton("Show status");
+      helpButton = new JButton("Show help");
+      manualButton = new JButton("Show manual");
     }
-    findButton = new JButton("Find");
-    fightButton = new JButton("Fight");
-    runButton = new JButton("Run");
-    openBagButton = new JButton("Open Bag");
-    useItemButton = new JButton("Use Item");
-    deleteItemButton = new JButton("Delete Item");
-    mapButton = new JButton("Show map");
-    statusButton = new JButton("Show status");
-    helpButton = new JButton("Show help");
-    manualButton = new JButton("Show manual");
+
   }
 
   /**
@@ -148,6 +172,13 @@ public class MainGUI extends JFrame implements ActionListener {
     bagPanel.add(openBagButton);
     bagPanel.add(useItemButton);
     bagPanel.add(deleteItemButton);
+    fightPanel.add(fightButton);
+    fightPanel.add(runButton);
+    fightPanel.add(useItemButton);
+    metaPanel.add(mapButton);
+    metaPanel.add(statusButton);
+    metaPanel.add(helpButton);
+    metaPanel.add(manualButton);
   }
 
   /**
