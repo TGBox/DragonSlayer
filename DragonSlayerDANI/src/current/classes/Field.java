@@ -82,6 +82,24 @@ public class Field extends Thing {
     this.portalID = DEFAULT_PORTAL_ID;
   }
 
+  /**
+   * method to check if the current field contains an enemy or not.
+   *
+   * @return boolean true if an enemy is on that field, false else.
+   */
+  public boolean hasEnemy(){
+    return enemy != null;
+  }
+
+  /**
+   * method to check if the current field has an npc on it or not.
+   *
+   * @return boolean true if an npc is on that field, false else.
+   */
+  public boolean hasNPC(){
+    return npc != null;
+  }
+
   // Getter and setter methods.
   public Enemy getEnemy() {
     return enemy;

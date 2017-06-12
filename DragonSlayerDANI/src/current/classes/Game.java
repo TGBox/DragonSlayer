@@ -2,7 +2,9 @@ package current.classes;
 
 import static current.meta.gen.MapGenerator.createNewMap;
 
+import current.meta.Constants.Command;
 import current.meta.Constants.Difficulty;
+import current.meta.Position;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -35,6 +37,37 @@ public class Game {
     this.index = MAP_ID_FIRST_MAP;
     this.maps = new Map[LEVEL_COUNT];
     initiateCurrentMap();
+  }
+
+     /**
+   * method to let the current player walk in the given direction.
+   *
+   * @param command Command to identify the direction.
+   * @return boolean true if the step can be made, false else.
+   */
+  public boolean walk(Command command){
+    switch (command){
+      case north:
+        if(player.getPos().y >= 1){
+          player.setPos(new Position(player.getPos().x, player.getPos().y - 1));
+          return true;
+        } else return false;
+      case south:
+        if(player.getPos().y <= maps[index - 1].getFields()[0].length - 2){
+          player.setPos(new Position(player.getPos().x, player.getPos().y + 1));
+          return true;
+        } else return false;
+      case east:
+        if(player.getPos().x <= maps[index - 1].getFields().length - 2){
+          player.setPos(new Position(player.getPos().x + 1, player.getPos().y));
+          return true;
+        } else return false;
+      default:  // west
+        if(player.getPos().x >= 1){
+          player.setPos(new Position(player.getPos().x - 1, player.getPos().y));
+          return true;
+        } else return false;
+    }
   }
 
   /**

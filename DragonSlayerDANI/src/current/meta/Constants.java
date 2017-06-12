@@ -34,6 +34,11 @@ public class Constants {
    */
 
   // Enums for the game.
+  public enum Command {
+    north, south, east, west, find, fight, run, bagFight, bag, use, delete, map, status, help,
+    manual
+  }
+
   public enum Difficulty {
     Baby, Novice, Warrior, God
   }

@@ -7,8 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a3c5f79-1553-4fca-a640-c4ddb5d19da5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/current/classes/templates/WrongMethodCallException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/classes/Field.java" afterPath="$PROJECT_DIR$/src/current/classes/Field.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/classes/Game.java" afterPath="$PROJECT_DIR$/src/current/classes/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/gui/MainGUI.java" afterPath="$PROJECT_DIR$/src/current/gui/MainGUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/meta/Constants.java" afterPath="$PROJECT_DIR$/src/current/meta/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/current/meta/gen/OutputGenerator.java" afterPath="$PROJECT_DIR$/src/current/meta/gen/OutputGenerator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,58 +32,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/current/meta/gen/GameGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-              <folding>
-                <element signature="docComment;class#GameGenerator#0" expanded="false" />
-                <element signature="docComment;method#GameGenerator#0;class#GameGenerator#0" expanded="false" />
-                <element signature="docComment;method#getDifficultyFromUser#0;class#GameGenerator#0" expanded="false" />
-                <element signature="method#getDifficultyFromUser#0;class#GameGenerator#0" expanded="false" />
-                <element signature="docComment;method#getNameFromUser#0;class#GameGenerator#0" expanded="false" />
-                <element signature="method#getNameFromUser#0;class#GameGenerator#0" expanded="false" />
-                <element signature="docComment;method#createPlayer#0;class#GameGenerator#0" expanded="false" />
-                <element signature="method#createPlayer#0;class#GameGenerator#0" expanded="false" />
-                <element signature="docComment;method#fillStringArray#0;class#GameGenerator#0" expanded="false" />
-                <element signature="method#fillStringArray#0;class#GameGenerator#0" expanded="false" />
-                <element signature="docComment;method#randInt#0;class#GameGenerator#0" expanded="false" />
-                <element signature="method#randInt#0;class#GameGenerator#0" expanded="false" />
-                <element signature="docComment;method#main#0;class#GameGenerator#0" expanded="false" />
-                <element signature="method#main#0;class#GameGenerator#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputGenerator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OutputGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/current/meta/gen/OutputGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+            <state relative-caret-position="570">
+              <caret line="90" column="16" lean-forward="false" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
               <folding>
-                <element signature="docComment;class#OutputGenerator#0" expanded="false" />
-                <element signature="docComment;method#getIntroduction#0;class#OutputGenerator#0" expanded="false" />
-                <element signature="method#getIntroduction#0;class#OutputGenerator#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/current/classes/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="100" column="3" lean-forward="false" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrongMethodCallException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/current/classes/templates/WrongMethodCallException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/gui/MainGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="41" column="99" lean-forward="false" selection-start-line="41" selection-start-column="99" selection-end-line="41" selection-end-column="99" />
+            <state relative-caret-position="276">
+              <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#initComponents#0;class#MainGUI#0" expanded="true" />
-                <element signature="method#addComponentsTogether#0;class#MainGUI#0" expanded="true" />
-                <element signature="docComment;method#addActionListeners#0;class#MainGUI#0" expanded="true" />
-                <element signature="method#addActionListeners#0;class#MainGUI#0" expanded="true" />
-                <element signature="docComment;method#actionPerformed#0;class#MainGUI#0" expanded="true" />
-                <element signature="method#actionPerformed#0;class#MainGUI#0" expanded="true" />
+                <element signature="docComment;method#out#0;class#MainGUI#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -87,34 +81,19 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/classes/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="docComment;class#Game#0" expanded="false" />
-                <element signature="docComment;method#Game#0;class#Game#0" expanded="false" />
-                <element signature="method#Game#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#advanceOneLevel#0;class#Game#0" expanded="false" />
-                <element signature="e#1021#1022#0" expanded="false" />
-                <element signature="e#1051#1052#0" expanded="false" />
-                <element signature="docComment;method#initiateCurrentMap#0;class#Game#0" expanded="false" />
-                <element signature="method#initiateCurrentMap#0;class#Game#0" expanded="false" />
-                <element signature="docComment;method#getMap#0;class#Game#0" expanded="false" />
-                <element signature="e#1464#1465#0" expanded="false" />
-                <element signature="e#1496#1497#0" expanded="false" />
-                <element signature="e#1559#1560#0" expanded="false" />
-                <element signature="e#1582#1583#0" expanded="false" />
-                <element signature="e#1624#1625#0" expanded="false" />
-                <element signature="e#1654#1655#0" expanded="false" />
-                <element signature="e#1693#1694#0" expanded="false" />
-                <element signature="e#1720#1721#0" expanded="false" />
-                <element signature="e#1774#1775#0" expanded="false" />
-                <element signature="e#1812#1813#0" expanded="false" />
-                <element signature="e#1840#1841#0" expanded="false" />
-                <element signature="e#1861#1862#0" expanded="false" />
-                <element signature="e#1898#1899#0" expanded="false" />
-                <element signature="e#1924#1925#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/current/classes/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="69" column="3" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,36 +101,10 @@
       <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/current/meta/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2242">
-              <caret line="156" column="41" lean-forward="false" selection-start-line="156" selection-start-column="41" selection-end-line="156" selection-end-column="41" />
+            <state relative-caret-position="314">
+              <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding>
-                <element signature="docComment;class#Constants#0" expanded="false" />
-                <element signature="class#Difficulty#0;class#Constants#0" expanded="false" />
-                <element signature="class#UserNames#0;class#Constants#0" expanded="false" />
-                <element signature="class#DragonNames#0;class#Constants#0" expanded="false" />
-                <element signature="class#EnemyNames#0;class#Constants#0" expanded="false" />
-                <element signature="class#EnemyNamePrefixes#0;class#Constants#0" expanded="false" />
-                <element signature="class#WeaponNames#0;class#Constants#0" expanded="false" />
-                <element signature="class#WeaponPrefixes#0;class#Constants#0" expanded="false" />
-                <element signature="class#FieldNames#0;class#Constants#0" expanded="false" />
-                <element signature="class#SpecialFieldNames#0;class#Constants#0" expanded="false" />
-                <element signature="class#DungeonFieldNames#0;class#Constants#0" expanded="false" />
-                <element signature="class#HealingPrefixNames#0;class#Constants#0" expanded="false" />
-                <element signature="class#HealingAdjectives#0;class#Constants#0" expanded="false" />
-                <element signature="docComment;method#getLength#0;class#Constants#0" expanded="false" />
-                <element signature="method#getLength#0;class#Constants#0" expanded="false" />
-                <element signature="docComment;method#asString#0;class#Constants#0" expanded="false" />
-                <element signature="method#asString#0;class#Constants#0" expanded="false" />
-                <element signature="docComment;method#getEnumAt#0;class#Constants#0" expanded="false" />
-                <element signature="method#getEnumAt#0;class#Constants#0" expanded="false" />
-                <element signature="docComment;method#getRandomEnum#0;class#Constants#0" expanded="false" />
-                <element signature="method#getRandomEnum#0;class#Constants#0" expanded="false" />
-                <element signature="docComment;method#truncateDouble#0;class#Constants#0" expanded="false" />
-                <element signature="method#truncateDouble#0;class#Constants#0" expanded="false" />
-                <element signature="docComment;method#randInt#0;class#Constants#0" expanded="false" />
-                <element signature="method#randInt#0;class#Constants#0" expanded="false" />
-                <element signature="docComment;method#main#0;class#Constants#0" expanded="false" />
-                <element signature="method#main#0;class#Constants#0" expanded="false" />
+                <element signature="class#Command#0;class#Constants#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -302,7 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/newGUIBasedVersion/newCreators/MapCreator.java" />
         <option value="$PROJECT_DIR$/src/newGUIBasedVersion/newCreators/ToolCreator.java" />
         <option value="$PROJECT_DIR$/src/newGUIBasedVersion/GameHandler.java" />
         <option value="$PROJECT_DIR$/src/newGUIBasedVersion/Game.java" />
@@ -334,7 +286,6 @@
         <option value="$PROJECT_DIR$/src/current/classes/templates/AbstractMap.java" />
         <option value="$PROJECT_DIR$/src/current/classes/Dungeon.java" />
         <option value="$PROJECT_DIR$/src/current/classes/Map.java" />
-        <option value="$PROJECT_DIR$/src/current/classes/Field.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/ToolGenerator.java" />
         <option value="$PROJECT_DIR$/src/current/meta/NPCWithItem.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/WeaponGenerator.java" />
@@ -347,12 +298,14 @@
         <option value="$PROJECT_DIR$/src/current/meta/gen/NPC_Generator.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/MapGenerator.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/EnemyGenerator.java" />
-        <option value="$PROJECT_DIR$/src/current/classes/Player.java" />
-        <option value="$PROJECT_DIR$/src/current/meta/Constants.java" />
-        <option value="$PROJECT_DIR$/src/current/classes/Game.java" />
         <option value="$PROJECT_DIR$/src/current/meta/gen/GameGenerator.java" />
-        <option value="$PROJECT_DIR$/src/current/meta/gen/OutputGenerator.java" />
         <option value="$PROJECT_DIR$/src/current/gui/MainGUI.java" />
+        <option value="$PROJECT_DIR$/src/current/classes/Player.java" />
+        <option value="$PROJECT_DIR$/src/current/classes/Game.java" />
+        <option value="$PROJECT_DIR$/src/current/meta/Constants.java" />
+        <option value="$PROJECT_DIR$/src/current/classes/templates/WrongMethodCallException.java" />
+        <option value="$PROJECT_DIR$/src/current/classes/Field.java" />
+        <option value="$PROJECT_DIR$/src/current/meta/gen/OutputGenerator.java" />
       </list>
     </option>
   </component>
@@ -440,12 +393,26 @@
               <option name="myItemId" value="current" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="DragonSlayerDANI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragonSlayerDANI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="current" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,6 +433,14 @@
               <option name="myItemId" value="current" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -474,7 +449,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Groovy" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Transer/Transparenter" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -938,7 +913,21 @@
       <option name="project" value="LOCAL" />
       <updated>1496869368639</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="gui updated, images created">
+      <created>1497302976760</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1497302976760</updated>
+    </task>
+    <task id="LOCAL-00013" summary="images added">
+      <created>1497303014145</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1497303014145</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -959,12 +948,13 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33480662" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2616721" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2616721" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18072917" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -975,7 +965,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -996,7 +985,9 @@
     <MESSAGE value="generators updated: field, map, npc" />
     <MESSAGE value="generators updated: map and npc; game class added" />
     <MESSAGE value="gui added, game class and game generator class updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="gui added, game class and game generator class updated" />
+    <MESSAGE value="gui updated, images created" />
+    <MESSAGE value="images added" />
+    <option name="LAST_COMMIT_MESSAGE" value="images added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,20 +1000,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/depr/newVersion/classes/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="138" column="5" lean-forward="true" selection-start-line="109" selection-start-column="4" selection-end-line="138" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/classes/templates/Thing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/current/classes/templates/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -1090,13 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2123">
           <caret line="102" column="38" lean-forward="false" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/classes/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1268,46 +1238,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/classes/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="45" column="77" lean-forward="false" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/classes/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="docComment;class#Game#0" expanded="false" />
-            <element signature="docComment;method#Game#0;class#Game#0" expanded="false" />
-            <element signature="method#Game#0;class#Game#0" expanded="false" />
-            <element signature="docComment;method#advanceOneLevel#0;class#Game#0" expanded="false" />
-            <element signature="e#1021#1022#0" expanded="false" />
-            <element signature="e#1051#1052#0" expanded="false" />
-            <element signature="docComment;method#initiateCurrentMap#0;class#Game#0" expanded="false" />
-            <element signature="method#initiateCurrentMap#0;class#Game#0" expanded="false" />
-            <element signature="docComment;method#getMap#0;class#Game#0" expanded="false" />
-            <element signature="e#1464#1465#0" expanded="false" />
-            <element signature="e#1496#1497#0" expanded="false" />
-            <element signature="e#1559#1560#0" expanded="false" />
-            <element signature="e#1582#1583#0" expanded="false" />
-            <element signature="e#1624#1625#0" expanded="false" />
-            <element signature="e#1654#1655#0" expanded="false" />
-            <element signature="e#1693#1694#0" expanded="false" />
-            <element signature="e#1720#1721#0" expanded="false" />
-            <element signature="e#1774#1775#0" expanded="false" />
-            <element signature="e#1812#1813#0" expanded="false" />
-            <element signature="e#1840#1841#0" expanded="false" />
-            <element signature="e#1861#1862#0" expanded="false" />
-            <element signature="e#1898#1899#0" expanded="false" />
-            <element signature="e#1924#1925#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/current/meta/gen/GameGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1338,18 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/meta/gen/OutputGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-          <folding>
-            <element signature="docComment;class#OutputGenerator#0" expanded="false" />
-            <element signature="docComment;method#getIntroduction#0;class#OutputGenerator#0" expanded="false" />
-            <element signature="method#getIntroduction#0;class#OutputGenerator#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/depr/testing/TestGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1361,42 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/current/meta/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2242">
-          <caret line="156" column="41" lean-forward="false" selection-start-line="156" selection-start-column="41" selection-end-line="156" selection-end-column="41" />
-          <folding>
-            <element signature="docComment;class#Constants#0" expanded="false" />
-            <element signature="class#Difficulty#0;class#Constants#0" expanded="false" />
-            <element signature="class#UserNames#0;class#Constants#0" expanded="false" />
-            <element signature="class#DragonNames#0;class#Constants#0" expanded="false" />
-            <element signature="class#EnemyNames#0;class#Constants#0" expanded="false" />
-            <element signature="class#EnemyNamePrefixes#0;class#Constants#0" expanded="false" />
-            <element signature="class#WeaponNames#0;class#Constants#0" expanded="false" />
-            <element signature="class#WeaponPrefixes#0;class#Constants#0" expanded="false" />
-            <element signature="class#FieldNames#0;class#Constants#0" expanded="false" />
-            <element signature="class#SpecialFieldNames#0;class#Constants#0" expanded="false" />
-            <element signature="class#DungeonFieldNames#0;class#Constants#0" expanded="false" />
-            <element signature="class#HealingPrefixNames#0;class#Constants#0" expanded="false" />
-            <element signature="class#HealingAdjectives#0;class#Constants#0" expanded="false" />
-            <element signature="docComment;method#getLength#0;class#Constants#0" expanded="false" />
-            <element signature="method#getLength#0;class#Constants#0" expanded="false" />
-            <element signature="docComment;method#asString#0;class#Constants#0" expanded="false" />
-            <element signature="method#asString#0;class#Constants#0" expanded="false" />
-            <element signature="docComment;method#getEnumAt#0;class#Constants#0" expanded="false" />
-            <element signature="method#getEnumAt#0;class#Constants#0" expanded="false" />
-            <element signature="docComment;method#getRandomEnum#0;class#Constants#0" expanded="false" />
-            <element signature="method#getRandomEnum#0;class#Constants#0" expanded="false" />
-            <element signature="docComment;method#truncateDouble#0;class#Constants#0" expanded="false" />
-            <element signature="method#truncateDouble#0;class#Constants#0" expanded="false" />
-            <element signature="docComment;method#randInt#0;class#Constants#0" expanded="false" />
-            <element signature="method#randInt#0;class#Constants#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Constants#0" expanded="false" />
-            <element signature="method#main#0;class#Constants#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1525,18 +1407,76 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="69" column="3" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/current/gui/MainGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="41" column="99" lean-forward="false" selection-start-line="41" selection-start-column="99" selection-end-line="41" selection-end-column="99" />
+        <state relative-caret-position="276">
+          <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#initComponents#0;class#MainGUI#0" expanded="true" />
-            <element signature="method#addComponentsTogether#0;class#MainGUI#0" expanded="true" />
-            <element signature="docComment;method#addActionListeners#0;class#MainGUI#0" expanded="true" />
-            <element signature="method#addActionListeners#0;class#MainGUI#0" expanded="true" />
-            <element signature="docComment;method#actionPerformed#0;class#MainGUI#0" expanded="true" />
-            <element signature="method#actionPerformed#0;class#MainGUI#0" expanded="true" />
+            <element signature="docComment;method#out#0;class#MainGUI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/meta/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="class#Command#0;class#Constants#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/templates/WrongMethodCallException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/classes/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="100" column="3" lean-forward="false" selection-start-line="100" selection-start-column="3" selection-end-line="100" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/current/meta/gen/OutputGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="90" column="16" lean-forward="false" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getWalkingString#0;class#OutputGenerator#0" expanded="false" />
+            <element signature="docComment;method#getNewFieldString#0;class#OutputGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
